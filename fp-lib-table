@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "NRD_LDO") (type "KiCad") (uri "${NERDTRONIX_COMPONENTS_DIR}/footprint/NRD_LDO.pretty") (options "") (descr ""))
+	(lib (name "NRD_IC_COM") (type "KiCad") (uri "${NERDTRONIX_COMPONENTS_DIR}/footprint/NRD_IC_COM.pretty") (options "") (descr ""))
+)
