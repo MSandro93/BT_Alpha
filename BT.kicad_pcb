@@ -2122,7 +2122,7 @@
 	(footprint "NRD_RES:R_0603"
 		(layer "F.Cu")
 		(uuid "1a8652c6-d9e2-4562-b66e-c4df9d2b629a")
-		(at 160.595 114.675)
+		(at 160.595 114.81)
 		(tags "resistor")
 		(property "Reference" "R31"
 			(at 0 -1.43 0)
@@ -12371,12 +12371,12 @@
 	(footprint "NRD_CAP:C_0603"
 		(layer "F.Cu")
 		(uuid "7d659741-29ee-4baa-8b4d-5d148b20fe94")
-		(at 154.39 114.81)
+		(at 154.39 114.81 180)
 		(property "Reference" "C30"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7888881d-7428-40b7-b771-dc2433dac577")
+			(uuid "1f5ceac2-690e-431f-a057-07143da6360b")
 			(effects
 				(font
 					(size 1 1)
@@ -12388,7 +12388,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e959e67-4cb1-4ec4-b409-99cf9d60062c")
+			(uuid "c891d145-e935-415b-bf31-412478530081")
 			(effects
 				(font
 					(size 1 1)
@@ -12400,7 +12400,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "39acbceb-ae44-4a3b-aaf0-67337a121a9f")
+			(uuid "bdb83799-2a38-4de4-9cce-1967e6724855")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12412,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da3a3bcf-a7da-45bd-9036-fa974dbfdd73")
+			(uuid "6a3efede-de53-4ea3-a87d-10fa2f87f2fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12421,7 +12421,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12434,7 +12434,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12447,7 +12447,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12460,7 +12460,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12473,7 +12473,7 @@
 			)
 		)
 		(property "Voltage [V]" "50"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12486,7 +12486,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12499,7 +12499,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12512,7 +12512,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12525,7 +12525,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12538,7 +12538,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12551,7 +12551,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12564,7 +12564,7 @@
 			)
 		)
 		(property "Value [F]" "1e-07"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -12588,16 +12588,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "307754f9-c83e-4555-8a98-fe260763cb8a")
-		)
-		(fp_line
 			(start -0.14058 0.51)
 			(end 0.14058 0.51)
 			(stroke
@@ -12606,6 +12596,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "5db19cdf-06c9-4179-a0a3-1569982ded1b")
+		)
+		(fp_line
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "307754f9-c83e-4555-8a98-fe260763cb8a")
 		)
 		(fp_rect
 			(start -1.48 -0.73)
@@ -12641,7 +12641,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12650,7 +12650,7 @@
 			(uuid "d001e02f-2767-4ca2-8391-c05e490c5f56")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -19436,7 +19436,7 @@
 	(footprint "NRD_RES:R_0603"
 		(layer "F.Cu")
 		(uuid "c4d376e6-ac38-4a30-9832-e5485cc8c989")
-		(at 157.59 114.71)
+		(at 157.59 114.81)
 		(tags "resistor")
 		(property "Reference" "R20"
 			(at 0 -1.43 0)

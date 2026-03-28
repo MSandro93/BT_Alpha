@@ -47893,6 +47893,18 @@
 		(uuid "107b732c-77b7-4fe1-b549-13596fa1328b")
 	)
 	(junction
+		(at 212.09 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1246f154-edfc-4f6e-862d-e84e84bc977b")
+	)
+	(junction
+		(at 195.58 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e420c78-865e-4537-b5f7-3046d80e84a2")
+	)
+	(junction
 		(at 171.45 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -47929,6 +47941,12 @@
 		(uuid "2aa82efb-43f4-44d4-9bfd-dc63c969fe7f")
 	)
 	(junction
+		(at 92.71 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b591baa-d9df-4f64-82eb-02326871f1b3")
+	)
+	(junction
 		(at 388.62 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -47951,6 +47969,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31cfa97f-34b8-47b4-926c-251344e288e3")
+	)
+	(junction
+		(at 220.98 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "326e4bf7-d557-4a0e-914a-f987ec21f313")
 	)
 	(junction
 		(at 186.69 35.56)
@@ -47983,24 +48007,6 @@
 		(uuid "46a045de-b1bb-4393-94df-42a52bd1d8fa")
 	)
 	(junction
-		(at 208.28 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "488cf3c6-0bdb-4f92-a541-645f1eef300a")
-	)
-	(junction
-		(at 106.68 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "528cdb1e-1e9a-41c7-a25f-5615a9e1a241")
-	)
-	(junction
-		(at 189.23 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58b2add7-15d0-47a5-8015-a154a3d43dd2")
-	)
-	(junction
 		(at 218.44 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -48017,6 +48023,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d0d4cac-87b2-42ff-a6e8-61cf3951c2cb")
+	)
+	(junction
+		(at 119.38 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f08d5fc-17c7-4394-97ca-fbdbe8ff8fad")
 	)
 	(junction
 		(at 304.8 123.19)
@@ -48079,22 +48091,10 @@
 		(uuid "8d5c2e48-27d2-4978-8fe0-c2d2958d039d")
 	)
 	(junction
-		(at 87.63 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95c4e776-3f73-415b-a817-5cf47a70cbbd")
-	)
-	(junction
 		(at 259.08 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "988a361e-3225-4e1e-95c7-bc09e072bd8c")
-	)
-	(junction
-		(at 220.98 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a8eb0e4-4ed1-4247-88e2-5affaf7f5ae8")
 	)
 	(junction
 		(at 115.57 96.52)
@@ -48151,7 +48151,7 @@
 		(uuid "b9036a70-90db-426c-a9e2-c205d2cefeae")
 	)
 	(junction
-		(at 106.68 264.16)
+		(at 110.49 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0d71e26-74f9-4b42-bdee-2dda7b12e97b")
@@ -48173,6 +48173,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbf08a60-331b-4cb3-827a-e2c05029d5bf")
+	)
+	(junction
+		(at 110.49 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d19b284e-a124-4057-bc8e-266234d550b7")
 	)
 	(junction
 		(at 44.45 87.63)
@@ -48211,7 +48217,7 @@
 		(uuid "d88e5067-8d36-48ff-a5f0-1a7e2b0c92e1")
 	)
 	(junction
-		(at 208.28 264.16)
+		(at 212.09 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8a92513-b75c-4370-947b-fca914f2f364")
@@ -48221,12 +48227,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dec408df-85cf-40f2-8777-ad018ac5740b")
-	)
-	(junction
-		(at 119.38 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e358867d-9bbf-45df-9714-12d856c28f4c")
 	)
 	(junction
 		(at 78.74 49.53)
@@ -48412,6 +48412,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 264.16) (xy 212.09 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e331b7-57c1-42ef-8db4-18974b40b81b")
+	)
+	(wire
+		(pts
 			(xy 209.55 76.2) (xy 209.55 72.39)
 		)
 		(stroke
@@ -48452,7 +48462,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 264.16) (xy 208.28 266.7)
+			(xy 212.09 264.16) (xy 212.09 266.7)
 		)
 		(stroke
 			(width 0)
@@ -48462,7 +48472,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 251.46) (xy 208.28 251.46)
+			(xy 209.55 251.46) (xy 212.09 251.46)
 		)
 		(stroke
 			(width 0)
@@ -48482,7 +48492,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 251.46) (xy 220.98 251.46)
+			(xy 212.09 251.46) (xy 220.98 251.46)
 		)
 		(stroke
 			(width 0)
@@ -48633,7 +48643,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 254) (xy 208.28 251.46)
+			(xy 212.09 254) (xy 212.09 251.46)
 		)
 		(stroke
 			(width 0)
@@ -48783,16 +48793,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 238.76) (xy 189.23 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1da7e253-6ba9-4f30-b85d-8d5f87c8d430")
-	)
-	(wire
-		(pts
 			(xy 265.43 105.41) (xy 265.43 111.76)
 		)
 		(stroke
@@ -48803,7 +48803,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 261.62) (xy 106.68 264.16)
+			(xy 110.49 261.62) (xy 110.49 264.16)
 		)
 		(stroke
 			(width 0)
@@ -48873,7 +48873,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 238.76) (xy 87.63 238.76)
+			(xy 83.82 238.76) (xy 92.71 238.76)
 		)
 		(stroke
 			(width 0)
@@ -48903,7 +48903,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 251.46) (xy 119.38 251.46)
+			(xy 110.49 251.46) (xy 119.38 251.46)
 		)
 		(stroke
 			(width 0)
@@ -48934,7 +48934,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 248.92) (xy 189.23 251.46)
+			(xy 195.58 248.92) (xy 195.58 251.46)
 		)
 		(stroke
 			(width 0)
@@ -49045,7 +49045,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 251.46) (xy 87.63 251.46)
+			(xy 83.82 251.46) (xy 92.71 251.46)
 		)
 		(stroke
 			(width 0)
@@ -49579,7 +49579,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 238.76) (xy 189.23 241.3)
+			(xy 195.58 238.76) (xy 195.58 241.3)
 		)
 		(stroke
 			(width 0)
@@ -49649,7 +49649,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 274.32) (xy 208.28 276.86)
+			(xy 212.09 274.32) (xy 212.09 276.86)
 		)
 		(stroke
 			(width 0)
@@ -49850,7 +49850,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 238.76) (xy 87.63 241.3)
+			(xy 92.71 238.76) (xy 92.71 241.3)
 		)
 		(stroke
 			(width 0)
@@ -49890,7 +49890,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 248.92) (xy 87.63 251.46)
+			(xy 92.71 248.92) (xy 92.71 251.46)
 		)
 		(stroke
 			(width 0)
@@ -49917,16 +49917,6 @@
 			(type default)
 		)
 		(uuid "7665611d-336e-4fa6-b5b2-34c62878ea73")
-	)
-	(wire
-		(pts
-			(xy 185.42 251.46) (xy 189.23 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76cbf4c8-af44-4150-980a-c2c408088728")
 	)
 	(wire
 		(pts
@@ -50010,7 +50000,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 251.46) (xy 87.63 251.46)
+			(xy 100.33 251.46) (xy 92.71 251.46)
 		)
 		(stroke
 			(width 0)
@@ -50020,7 +50010,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 251.46) (xy 189.23 251.46)
+			(xy 201.93 251.46) (xy 195.58 251.46)
 		)
 		(stroke
 			(width 0)
@@ -50251,7 +50241,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 264.16) (xy 106.68 266.7)
+			(xy 110.49 264.16) (xy 110.49 266.7)
 		)
 		(stroke
 			(width 0)
@@ -50661,6 +50651,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 251.46) (xy 195.58 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52982f4-cd34-4522-b8a1-bfceccc546c6")
+	)
+	(wire
+		(pts
 			(xy 256.54 181.61) (xy 259.08 181.61)
 		)
 		(stroke
@@ -50712,16 +50712,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 264.16) (xy 208.28 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8fe58a1-191f-4d66-8105-8fbcc23aa7af")
-	)
-	(wire
-		(pts
 			(xy 83.82 212.09) (xy 83.82 210.82)
 		)
 		(stroke
@@ -50739,6 +50729,16 @@
 			(type default)
 		)
 		(uuid "a9397502-7304-4c7a-acbd-1dce0ab37d5e")
+	)
+	(wire
+		(pts
+			(xy 185.42 238.76) (xy 195.58 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9658d0a-77f5-4f92-81b9-f61d1b07b39c")
 	)
 	(wire
 		(pts
@@ -51225,7 +51225,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 264.16) (xy 106.68 264.16)
+			(xy 83.82 264.16) (xy 110.49 264.16)
 		)
 		(stroke
 			(width 0)
@@ -51255,7 +51255,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 254) (xy 106.68 251.46)
+			(xy 110.49 254) (xy 110.49 251.46)
 		)
 		(stroke
 			(width 0)
@@ -51305,7 +51305,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 251.46) (xy 106.68 251.46)
+			(xy 107.95 251.46) (xy 110.49 251.46)
 		)
 		(stroke
 			(width 0)
@@ -51496,7 +51496,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 261.62) (xy 208.28 264.16)
+			(xy 212.09 261.62) (xy 212.09 264.16)
 		)
 		(stroke
 			(width 0)
@@ -51536,7 +51536,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 274.32) (xy 106.68 276.86)
+			(xy 110.49 274.32) (xy 110.49 276.86)
 		)
 		(stroke
 			(width 0)
@@ -52105,7 +52105,7 @@
 		(uuid "bb904977-f8ea-4809-975d-c60cacf83bef")
 	)
 	(label "FB_+6V"
-		(at 87.63 264.16 0)
+		(at 91.44 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52115,7 +52115,7 @@
 		(uuid "bf9b0c94-3724-46a1-85d1-496115e7a8d1")
 	)
 	(label "FB_+3V3"
-		(at 189.23 264.16 0)
+		(at 193.04 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52203,6 +52203,16 @@
 			(justify left bottom)
 		)
 		(uuid "e7554491-0b4d-4765-ba3c-42fae1974e99")
+	)
+	(label "+12V_FUSED"
+		(at 55.88 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8ea7da1-567b-44ea-aed8-7c607ea259d8")
 	)
 	(label "R_OUT"
 		(at 382.27 66.04 180)
@@ -52701,7 +52711,7 @@
 	)
 	(symbol
 		(lib_id "NRD_C_0603:CL10B104KB8NNNC")
-		(at 87.63 245.11 0)
+		(at 92.71 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52712,7 +52722,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b05052e-c69c-4af6-84dc-ce7ed05527d4")
 		(property "Reference" "C17"
-			(at 90.17 241.3062 0)
+			(at 95.25 242.5762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52723,7 +52733,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 90.17 243.8462 0)
+			(at 95.25 245.1162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52734,7 +52744,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CAP:C_0603"
-			(at 87.884 259.588 0)
+			(at 92.964 259.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52745,7 +52755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 245.11 0)
+			(at 92.71 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52756,7 +52766,7 @@
 			)
 		)
 		(property "Description" "CAP 100nF ±10% 50V X7R 0603"
-			(at 87.884 259.588 0)
+			(at 92.964 259.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52767,7 +52777,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 86.868 258.318 0)
+			(at 91.948 258.318 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52778,7 +52788,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
-			(at 87.884 259.588 0)
+			(at 92.964 259.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52789,7 +52799,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 86.36 259.334 0)
+			(at 91.44 259.334 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52800,7 +52810,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 90.17 246.3862 0)
+			(at 95.25 247.6562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52811,7 +52821,7 @@
 			)
 		)
 		(property "Voltage [V]" "50"
-			(at 82.55 261.874 0)
+			(at 87.63 261.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52822,7 +52832,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 85.09 260.35 0)
+			(at 90.17 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52833,7 +52843,8 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 90.17 248.9262 0)
+			(at 99.06 248.9262 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52844,7 +52855,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 87.376 258.826 0)
+			(at 92.456 258.826 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52855,7 +52866,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 90.17 248.9262 0)
+			(at 95.25 248.9262 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52867,7 +52878,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 82.55 261.874 0)
+			(at 87.63 261.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52878,7 +52889,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 90.17 251.4662 0)
+			(at 95.25 251.4662 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52890,7 +52901,7 @@
 			)
 		)
 		(property "Value [F]" "1e-07"
-			(at 87.884 259.588 0)
+			(at 92.964 259.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53587,7 +53598,7 @@
 	)
 	(symbol
 		(lib_id "NRD_R_0603:RC0603FR-0711K5L")
-		(at 208.28 270.51 0)
+		(at 212.09 270.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -53598,7 +53609,7 @@
 		(fields_autoplaced yes)
 		(uuid "11e44d55-bd7a-42b1-9295-9a0ccefd97f9")
 		(property "Reference" "R31"
-			(at 210.82 267.9699 0)
+			(at 214.63 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53609,7 +53620,7 @@
 			)
 		)
 		(property "Value" "11K5"
-			(at 210.82 270.5099 0)
+			(at 214.63 270.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53620,7 +53631,7 @@
 			)
 		)
 		(property "Footprint" "NRD_RES:R_0603"
-			(at 210.312 283.21 0)
+			(at 214.122 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53631,7 +53642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 270.51 0)
+			(at 212.09 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53642,7 +53653,7 @@
 			)
 		)
 		(property "Description" "RES 11K5 1% 0.1W 0603"
-			(at 210.312 283.21 0)
+			(at 214.122 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53653,7 +53664,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-0711K5L"
-			(at 210.312 283.21 0)
+			(at 214.122 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53664,7 +53675,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "155"
-			(at 207.01 282.702 0)
+			(at 210.82 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53675,7 +53686,7 @@
 			)
 		)
 		(property "Voltage" "150V"
-			(at 200.406 282.448 0)
+			(at 204.216 282.448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53686,7 +53697,7 @@
 			)
 		)
 		(property "Voltage [V]" "150"
-			(at 209.042 282.702 0)
+			(at 212.852 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53697,7 +53708,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 207.518 282.702 0)
+			(at 211.328 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53708,7 +53719,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 210.82 270.5099 0)
+			(at 214.63 270.5099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53720,7 +53731,7 @@
 			)
 		)
 		(property "Power [W]" "0.1"
-			(at 209.042 282.702 0)
+			(at 212.852 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53731,7 +53742,7 @@
 			)
 		)
 		(property "Power" "0.1W"
-			(at 210.82 273.0499 0)
+			(at 214.63 273.0499 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53743,7 +53754,7 @@
 			)
 		)
 		(property "Rated Current [A]" ""
-			(at 209.042 282.702 0)
+			(at 212.852 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53754,7 +53765,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 209.042 282.702 0)
+			(at 212.852 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53765,7 +53776,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 210.82 273.0499 0)
+			(at 214.63 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53776,7 +53787,7 @@
 			)
 		)
 		(property "Tolerance [±%]" "1"
-			(at 209.042 282.702 0)
+			(at 212.852 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53787,7 +53798,7 @@
 			)
 		)
 		(property "Value [Ohm]" "11500"
-			(at 209.042 282.702 0)
+			(at 212.852 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53798,7 +53809,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 207.264 282.194 0)
+			(at 211.074 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54602,7 +54613,7 @@
 	)
 	(symbol
 		(lib_id "NRD_R_0603:RC0603FR-0735K7L")
-		(at 208.28 257.81 0)
+		(at 212.09 257.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54613,7 +54624,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f7133c0-1b20-40e0-a7bb-c9ebbf5f3876")
 		(property "Reference" "R20"
-			(at 210.82 255.2699 0)
+			(at 214.63 255.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54624,7 +54635,7 @@
 			)
 		)
 		(property "Value" "35K7"
-			(at 210.82 257.8099 0)
+			(at 214.63 257.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54635,7 +54646,7 @@
 			)
 		)
 		(property "Footprint" "NRD_RES:R_0603"
-			(at 210.312 270.51 0)
+			(at 214.122 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54646,7 +54657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 257.81 0)
+			(at 212.09 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54657,7 +54668,7 @@
 			)
 		)
 		(property "Description" "RES 35K7 1% 0.1W 0603"
-			(at 210.312 270.51 0)
+			(at 214.122 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54668,7 +54679,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-0735K7L"
-			(at 210.312 270.51 0)
+			(at 214.122 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54679,7 +54690,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "155"
-			(at 207.01 270.002 0)
+			(at 210.82 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54690,7 +54701,7 @@
 			)
 		)
 		(property "Voltage" "150V"
-			(at 200.406 269.748 0)
+			(at 204.216 269.748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54701,7 +54712,7 @@
 			)
 		)
 		(property "Voltage [V]" "150"
-			(at 209.042 270.002 0)
+			(at 212.852 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54712,7 +54723,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 207.518 270.002 0)
+			(at 211.328 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54723,7 +54734,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 210.82 257.8099 0)
+			(at 214.63 257.8099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54735,7 +54746,7 @@
 			)
 		)
 		(property "Power [W]" "0.1"
-			(at 209.042 270.002 0)
+			(at 212.852 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54746,7 +54757,7 @@
 			)
 		)
 		(property "Power" "0.1W"
-			(at 210.82 260.3499 0)
+			(at 214.63 260.3499 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54758,7 +54769,7 @@
 			)
 		)
 		(property "Rated Current [A]" ""
-			(at 209.042 270.002 0)
+			(at 212.852 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54769,7 +54780,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 209.042 270.002 0)
+			(at 212.852 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54780,7 +54791,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 210.82 260.3499 0)
+			(at 214.63 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54791,7 +54802,7 @@
 			)
 		)
 		(property "Tolerance [±%]" "1"
-			(at 209.042 270.002 0)
+			(at 212.852 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54802,7 +54813,7 @@
 			)
 		)
 		(property "Value [Ohm]" "35700"
-			(at 209.042 270.002 0)
+			(at 212.852 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54813,7 +54824,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 207.264 269.494 0)
+			(at 211.074 269.494 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55774,7 +55785,7 @@
 	)
 	(symbol
 		(lib_id "NRD_R_0603:RC0603FR-0713KL")
-		(at 106.68 257.81 0)
+		(at 110.49 257.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -55785,7 +55796,7 @@
 		(fields_autoplaced yes)
 		(uuid "29ee7ab2-db33-4cd0-aaa8-224d0242c13a")
 		(property "Reference" "R5"
-			(at 109.22 255.2699 0)
+			(at 113.03 255.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55796,7 +55807,7 @@
 			)
 		)
 		(property "Value" "13K"
-			(at 109.22 257.8099 0)
+			(at 113.03 257.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55807,7 +55818,7 @@
 			)
 		)
 		(property "Footprint" "NRD_RES:R_0603"
-			(at 108.712 270.51 0)
+			(at 112.522 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55818,7 +55829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 257.81 0)
+			(at 110.49 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55829,7 +55840,7 @@
 			)
 		)
 		(property "Description" "RES 13K 1% 0.1W 0603"
-			(at 108.712 270.51 0)
+			(at 112.522 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55840,7 +55851,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-0713KL"
-			(at 108.712 270.51 0)
+			(at 112.522 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55851,7 +55862,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "155"
-			(at 105.41 270.002 0)
+			(at 109.22 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55862,7 +55873,7 @@
 			)
 		)
 		(property "Voltage" "150V"
-			(at 98.806 269.748 0)
+			(at 102.616 269.748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55873,7 +55884,7 @@
 			)
 		)
 		(property "Voltage [V]" "150"
-			(at 107.442 270.002 0)
+			(at 111.252 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55884,7 +55895,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 105.918 270.002 0)
+			(at 109.728 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55895,7 +55906,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 109.22 257.8099 0)
+			(at 113.03 257.8099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55907,7 +55918,7 @@
 			)
 		)
 		(property "Power [W]" "0.1"
-			(at 107.442 270.002 0)
+			(at 111.252 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55918,7 +55929,7 @@
 			)
 		)
 		(property "Power" "0.1W"
-			(at 109.22 260.3499 0)
+			(at 113.03 260.3499 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55930,7 +55941,7 @@
 			)
 		)
 		(property "Rated Current [A]" ""
-			(at 107.442 270.002 0)
+			(at 111.252 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55941,7 +55952,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 107.442 270.002 0)
+			(at 111.252 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55952,7 +55963,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 109.22 260.3499 0)
+			(at 113.03 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55963,7 +55974,7 @@
 			)
 		)
 		(property "Tolerance [±%]" "1"
-			(at 107.442 270.002 0)
+			(at 111.252 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55974,7 +55985,7 @@
 			)
 		)
 		(property "Value [Ohm]" "13000"
-			(at 107.442 270.002 0)
+			(at 111.252 270.002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55985,7 +55996,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 105.664 269.494 0)
+			(at 109.474 269.494 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57397,7 +57408,7 @@
 	)
 	(symbol
 		(lib_id "NRD_IND:74438367082")
-		(at 99.06 251.46 0)
+		(at 104.14 251.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -57407,7 +57418,7 @@
 		(dnp no)
 		(uuid "35339aa7-2664-42e1-802b-1a38f7c4d640")
 		(property "Reference" "L1"
-			(at 97.028 248.666 0)
+			(at 102.108 248.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57417,7 +57428,7 @@
 			)
 		)
 		(property "Value" "8.2uH"
-			(at 99.06 252.984 0)
+			(at 104.14 252.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57427,7 +57438,7 @@
 			)
 		)
 		(property "Footprint" "NRD_IND:74438367082"
-			(at 99.06 264.668 0)
+			(at 104.14 264.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57438,7 +57449,7 @@
 			)
 		)
 		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/74438367082.pdf"
-			(at 99.06 251.46 0)
+			(at 104.14 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57449,7 +57460,7 @@
 			)
 		)
 		(property "Description" "Shielded Inductor 8.2uH 20% 4.85A Irat 3.25A Isat@-10%"
-			(at 103.632 261.874 0)
+			(at 108.712 261.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57460,7 +57471,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-40"
-			(at 100.33 262.636 0)
+			(at 105.41 262.636 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57471,7 +57482,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "85"
-			(at 99.314 263.398 0)
+			(at 104.394 263.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57482,7 +57493,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "74438367082"
-			(at 98.044 265.684 0)
+			(at 103.124 265.684 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57493,7 +57504,7 @@
 			)
 		)
 		(property "Manufacturer" "Wuerth Elektronik"
-			(at 98.806 263.398 0)
+			(at 103.886 263.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57504,7 +57515,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 99.06 251.46 0)
+			(at 104.14 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64749,7 +64760,7 @@
 	)
 	(symbol
 		(lib_id "NRD_IND:74438367082")
-		(at 200.66 251.46 0)
+		(at 205.74 251.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -64759,7 +64770,7 @@
 		(dnp no)
 		(uuid "8b65b51c-61fc-49b4-beba-83061dc20539")
 		(property "Reference" "L2"
-			(at 198.628 248.666 0)
+			(at 203.708 248.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64769,7 +64780,7 @@
 			)
 		)
 		(property "Value" "8.2uH"
-			(at 200.66 252.984 0)
+			(at 205.74 252.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64779,7 +64790,7 @@
 			)
 		)
 		(property "Footprint" "NRD_IND:74438367082"
-			(at 200.66 264.668 0)
+			(at 205.74 264.668 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64790,7 +64801,7 @@
 			)
 		)
 		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/74438367082.pdf"
-			(at 200.66 251.46 0)
+			(at 205.74 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64801,7 +64812,7 @@
 			)
 		)
 		(property "Description" "Shielded Inductor 8.2uH 20% 4.85A Irat 3.25A Isat@-10%"
-			(at 205.232 261.874 0)
+			(at 210.312 261.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64812,7 +64823,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-40"
-			(at 201.93 262.636 0)
+			(at 207.01 262.636 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64823,7 +64834,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "85"
-			(at 200.914 263.398 0)
+			(at 205.994 263.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64834,7 +64845,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "74438367082"
-			(at 199.644 265.684 0)
+			(at 204.724 265.684 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64845,7 +64856,7 @@
 			)
 		)
 		(property "Manufacturer" "Wuerth Elektronik"
-			(at 200.406 263.398 0)
+			(at 205.486 263.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -64856,7 +64867,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 200.66 251.46 0)
+			(at 205.74 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69406,7 +69417,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 208.28 276.86 0)
+		(at 212.09 276.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -69416,7 +69427,7 @@
 		(dnp no)
 		(uuid "bde441fe-49ca-408d-9492-620e2f024454")
 		(property "Reference" "#PWR065"
-			(at 208.28 283.21 0)
+			(at 212.09 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69427,7 +69438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 279.908 0)
+			(at 212.09 279.908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -69437,7 +69448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 276.86 0)
+			(at 212.09 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69448,7 +69459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 276.86 0)
+			(at 212.09 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -69459,7 +69470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 276.86 0)
+			(at 212.09 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72477,7 +72488,7 @@
 	)
 	(symbol
 		(lib_id "NRD_C_0603:CL10B104KB8NNNC")
-		(at 189.23 245.11 0)
+		(at 195.58 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -72488,7 +72499,7 @@
 		(fields_autoplaced yes)
 		(uuid "f329f2b2-a33d-42f4-b563-6c1c76eed6e0")
 		(property "Reference" "C30"
-			(at 191.77 241.3062 0)
+			(at 198.12 241.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72499,7 +72510,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 191.77 243.8462 0)
+			(at 198.12 243.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72510,7 +72521,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CAP:C_0603"
-			(at 189.484 259.588 0)
+			(at 195.834 259.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72521,7 +72532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 245.11 0)
+			(at 195.58 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72532,7 +72543,7 @@
 			)
 		)
 		(property "Description" "CAP 100nF ±10% 50V X7R 0603"
-			(at 189.484 259.588 0)
+			(at 195.834 259.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72543,7 +72554,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 188.468 258.318 0)
+			(at 194.818 258.318 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72554,7 +72565,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
-			(at 189.484 259.588 0)
+			(at 195.834 259.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72565,7 +72576,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 187.96 259.334 0)
+			(at 194.31 259.334 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72576,7 +72587,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 191.77 246.3862 0)
+			(at 198.12 246.3862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72587,7 +72598,7 @@
 			)
 		)
 		(property "Voltage [V]" "50"
-			(at 184.15 261.874 0)
+			(at 190.5 261.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72598,7 +72609,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 186.69 260.35 0)
+			(at 193.04 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72609,7 +72620,8 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 191.77 248.9262 0)
+			(at 198.12 248.9262 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72620,7 +72632,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 188.976 258.826 0)
+			(at 195.326 258.826 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72631,7 +72643,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 191.77 248.9262 0)
+			(at 198.12 248.9262 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72643,7 +72655,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 184.15 261.874 0)
+			(at 190.5 261.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72654,7 +72666,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 191.77 251.4662 0)
+			(at 198.12 251.4662 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72666,7 +72678,7 @@
 			)
 		)
 		(property "Value [F]" "1e-07"
-			(at 189.484 259.588 0)
+			(at 195.834 259.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72693,7 +72705,7 @@
 	)
 	(symbol
 		(lib_id "NRD_R_0603:RC0603FR-072KL")
-		(at 106.68 270.51 0)
+		(at 110.49 270.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -72704,7 +72716,7 @@
 		(fields_autoplaced yes)
 		(uuid "f36c3875-2ca3-4187-86d1-1962996c9ee4")
 		(property "Reference" "R18"
-			(at 109.22 267.9699 0)
+			(at 113.03 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72715,7 +72727,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 109.22 270.5099 0)
+			(at 113.03 270.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72726,7 +72738,7 @@
 			)
 		)
 		(property "Footprint" "NRD_RES:R_0603"
-			(at 108.712 283.21 0)
+			(at 112.522 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72737,7 +72749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 270.51 0)
+			(at 110.49 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72748,7 +72760,7 @@
 			)
 		)
 		(property "Description" "RES 2K 1% 0.1W 0603"
-			(at 108.712 283.21 0)
+			(at 112.522 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72759,7 +72771,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-072KL"
-			(at 108.712 283.21 0)
+			(at 112.522 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72770,7 +72782,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "155"
-			(at 105.41 282.702 0)
+			(at 109.22 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72781,7 +72793,7 @@
 			)
 		)
 		(property "Voltage" "150V"
-			(at 98.806 282.448 0)
+			(at 102.616 282.448 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72792,7 +72804,7 @@
 			)
 		)
 		(property "Voltage [V]" "150"
-			(at 107.442 282.702 0)
+			(at 111.252 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72803,7 +72815,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 105.918 282.702 0)
+			(at 109.728 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72814,7 +72826,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 109.22 270.5099 0)
+			(at 113.03 270.5099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72826,7 +72838,7 @@
 			)
 		)
 		(property "Power [W]" "0.1"
-			(at 107.442 282.702 0)
+			(at 111.252 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72837,7 +72849,7 @@
 			)
 		)
 		(property "Power" "0.1W"
-			(at 109.22 273.0499 0)
+			(at 113.03 273.0499 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72849,7 +72861,7 @@
 			)
 		)
 		(property "Rated Current [A]" ""
-			(at 107.442 282.702 0)
+			(at 111.252 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72860,7 +72872,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 107.442 282.702 0)
+			(at 111.252 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72871,7 +72883,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 109.22 273.0499 0)
+			(at 113.03 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72882,7 +72894,7 @@
 			)
 		)
 		(property "Tolerance [±%]" "1"
-			(at 107.442 282.702 0)
+			(at 111.252 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72893,7 +72905,7 @@
 			)
 		)
 		(property "Value [Ohm]" "2000"
-			(at 107.442 282.702 0)
+			(at 111.252 282.702 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72904,7 +72916,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 105.664 282.194 0)
+			(at 109.474 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73802,7 +73814,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 106.68 276.86 0)
+		(at 110.49 276.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -73812,7 +73824,7 @@
 		(dnp no)
 		(uuid "fed5ae14-09f2-4ca5-9121-03c6590ac87e")
 		(property "Reference" "#PWR046"
-			(at 106.68 283.21 0)
+			(at 110.49 283.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73823,7 +73835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 279.908 0)
+			(at 110.49 279.908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -73833,7 +73845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 276.86 0)
+			(at 110.49 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73844,7 +73856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 276.86 0)
+			(at 110.49 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -73855,7 +73867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 276.86 0)
+			(at 110.49 276.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
