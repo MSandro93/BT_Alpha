@@ -130,8 +130,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.125,
+        "min_connection": 0.125,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -143,9 +143,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.125,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -483,12 +483,36 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "NRD_Relays"
+      "NRD_Relays",
+      "NRD_MECH",
+      "NRD_MISC",
+      "NRD_MOSFET"
     ],
     "pinned_symbol_libs": [
       "NRD_Relays",
       "NRD_R_Var",
-      "NRD_LDO"
+      "NRD_LDO",
+      "NRD_CON",
+      "NRD_C_0201",
+      "NRD_C_0402",
+      "NRD_C_0603",
+      "NRD_C_0805",
+      "NRD_C_1206",
+      "NRD_C_1210",
+      "NRD_R_0201",
+      "NRD_Fuse",
+      "NRD_IC_COM",
+      "NRD_IC_DATA",
+      "NRD_IC_DCDC",
+      "NRD_IC_MCU",
+      "NRD_Diodes",
+      "NRD_Switches",
+      "NRD_IC_OPAMP",
+      "NRD_MOSFET",
+      "NRD_R_0603",
+      "NRD_R_0805",
+      "NRD_R_1206",
+      "NRD_R_1210"
     ]
   },
   "meta": {
@@ -664,7 +688,7 @@
         "uuid": "2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP4-5,L1-4",
     "variants": []
   },
   "sheets": [
