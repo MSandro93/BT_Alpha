@@ -582,7 +582,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/JST_PH_Series"
+			(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/JST_PH_Series.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3455,6 +3455,66 @@
 					)
 				)
 			)
+			(property "Minimum Operating Temperature [°C]" "-40"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Maximum Operating Temperature [°C]" "130"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer Part Number" "PCM5100A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "RoHS" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
 			(property "ki_fp_filters" "PCM510xx"
 				(at 0 0 0)
 				(show_name no)
@@ -5528,6 +5588,66 @@
 					(font
 						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "Minimum Operating Temperature [°C]" "-40"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Maximum Operating Temperature [°C]" "85"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer Part Number" "74479777310"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "Wurrth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "RoHS" "RoHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
 				)
 			)
 			(symbol "74479777310_0_1"
@@ -9661,6 +9781,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "NRD_R_Var:TC33X-2-103E"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -9734,6 +9857,66 @@
 					(font
 						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "Minimum Operating Temperature [°C]" "-40"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Maximum Operating Temperature [°C]" "100"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer Part Number" "TC33X-2-103E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "RoHS" "Yes"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
 				)
 			)
 			(property "ki_keywords" "resistor variable trimpot trimmer"
@@ -18401,6 +18584,16 @@
 		)
 		(uuid "43030313-6167-403a-bb11-5262bd4ac9cf")
 	)
+	(text "f_SW = 400kHZ"
+		(exclude_from_sim no)
+		(at 80.518 254.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "465240b6-604e-4f2a-b547-ff5ba4547118")
+	)
 	(text "credits: https://electronics.stackexchange.com/questions/450609/op-amp-circuit-to-control-gain-of-two-analog-channels-with-one-single-section-po"
 		(exclude_from_sim no)
 		(at 281.178 146.304 0)
@@ -18410,6 +18603,16 @@
 			)
 		)
 		(uuid "4ec82d36-0404-457d-a79e-7d90399bea7b")
+	)
+	(text "0.183A"
+		(exclude_from_sim no)
+		(at 33.274 238.506 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "542ab290-3ee9-4e80-aa08-08eeacba235c")
 	)
 	(text "requ.: 3.0V to 3.46V\n32mA max."
 		(exclude_from_sim no)
@@ -18464,6 +18667,26 @@
 		)
 		(uuid "77d2141d-4733-4e07-af8d-9aade54a4d51")
 	)
+	(text "P=2.19W"
+		(exclude_from_sim no)
+		(at 85.852 240.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79f795f0-dc45-4c32-831f-bfc8a9b337ba")
+	)
+	(text "552mA"
+		(exclude_from_sim no)
+		(at 165.1 234.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ac76595-3e53-41cf-8fb8-f6f3470843f3")
+	)
 	(text "DAC Clock"
 		(exclude_from_sim no)
 		(at 307.34 200.152 0)
@@ -18490,7 +18713,7 @@
 	)
 	(text "1.5A"
 		(exclude_from_sim no)
-		(at 116.078 254 0)
+		(at 107.188 254 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -18499,6 +18722,18 @@
 			)
 		)
 		(uuid "837d640a-0a35-43d9-8e1f-f1cb3b9e5614")
+	)
+	(text "η@552mA = 85%"
+		(exclude_from_sim no)
+		(at 109.982 231.648 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "8821ef60-7b95-4269-8098-83f00863f00a")
 	)
 	(text "(from MCU)"
 		(exclude_from_sim no)
@@ -18568,6 +18803,16 @@
 		)
 		(uuid "9bea498f-c9a7-4e2c-9d40-0e40b3a3ab73")
 	)
+	(text "f_SW = 400kHZ"
+		(exclude_from_sim no)
+		(at 216.662 254.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d0ba7a4-c4f1-4d4e-bc78-60d53e114025")
+	)
 	(text "3.10V to 3.46V\n20mA max."
 		(exclude_from_sim no)
 		(at 100.584 23.622 0)
@@ -18581,7 +18826,7 @@
 	)
 	(text "Uo_max = 3.460V\nUo_nom = 3.378V\nUo_min = 3.297V"
 		(exclude_from_sim no)
-		(at 148.336 242.316 0)
+		(at 143.256 242.316 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18628,6 +18873,16 @@
 			)
 		)
 		(uuid "b3e1f103-9f4d-4887-97ef-5e8f2f4f512f")
+	)
+	(text "P=1.87W"
+		(exclude_from_sim no)
+		(at 129.286 250.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cf564d51-9ecd-4255-8eeb-a994722a686e")
 	)
 	(text "3.0V to 3.6V"
 		(exclude_from_sim no)
@@ -18736,7 +18991,7 @@
 		(uuid "0268707e-2cd3-418a-987d-bc4f13363d26")
 	)
 	(junction
-		(at 57.15 242.57)
+		(at 48.26 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02f25f7d-6e58-482d-8219-91eff8dd8998")
@@ -18754,7 +19009,13 @@
 		(uuid "107b732c-77b7-4fe1-b549-13596fa1328b")
 	)
 	(junction
-		(at 99.06 242.57)
+		(at 118.11 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11e197ff-ed70-442c-be71-5198216bddbf")
+	)
+	(junction
+		(at 90.17 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f8853d4-0143-4aaf-bb8d-5abd9995a99c")
@@ -18772,6 +19033,12 @@
 		(uuid "235d5dd8-6872-4d88-a879-4ddb8266a304")
 	)
 	(junction
+		(at 120.65 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2821c2bf-5bda-41a6-b834-9b93f4078a5b")
+	)
+	(junction
 		(at 388.62 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18784,12 +19051,6 @@
 		(uuid "2da2543e-de4b-49da-929d-7d9728357d08")
 	)
 	(junction
-		(at 120.65 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30d14c87-ccd6-4c6e-ab61-dee604e11b5c")
-	)
-	(junction
 		(at 304.8 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18800,6 +19061,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b53c13f-230f-4509-815c-7a45df0bc671")
+	)
+	(junction
+		(at 49.53 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40a5905a-60d5-4423-ab32-120b563742e6")
 	)
 	(junction
 		(at 304.8 123.19)
@@ -18820,7 +19087,7 @@
 		(uuid "47b9bb54-1a64-4fe6-b748-b4be2e86ad35")
 	)
 	(junction
-		(at 138.43 265.43)
+		(at 133.35 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c6e9239-34eb-4427-b1b1-f10036abe157")
@@ -18844,7 +19111,7 @@
 		(uuid "58ef0f68-c616-4c86-9167-eae5c26227ab")
 	)
 	(junction
-		(at 165.1 252.73)
+		(at 160.02 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b25be0e-ae12-4c19-8c93-516d07cb2c05")
@@ -18868,7 +19135,7 @@
 		(uuid "64c9efb3-3d9b-4548-84fc-679860c7fca3")
 	)
 	(junction
-		(at 138.43 252.73)
+		(at 133.35 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6684c86f-013a-4027-aa03-2adee5f7cf08")
@@ -18964,18 +19231,6 @@
 		(uuid "9baae8d7-cc0f-4884-83da-80fbf5a21402")
 	)
 	(junction
-		(at 115.57 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c785018-765d-4404-a2b7-7bb8e753d95a")
-	)
-	(junction
-		(at 118.11 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d84982f-5223-4a9d-82b5-14603aecbbc2")
-	)
-	(junction
 		(at 25.4 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -19000,7 +19255,7 @@
 		(uuid "a1d00752-dc9f-4914-ad2d-18015f0e8007")
 	)
 	(junction
-		(at 68.58 242.57)
+		(at 59.69 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2205803-2c4c-4885-8b9e-23b33d4db42c")
@@ -19042,12 +19297,6 @@
 		(uuid "add3c0ab-6e89-458f-9477-0f8054c8d857")
 	)
 	(junction
-		(at 219.71 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b0404bcc-c99c-4a1e-a72b-3233cf4c1441")
-	)
-	(junction
 		(at 156.21 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -19082,12 +19331,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c04c41dc-006b-42e9-9d50-b43edf67c580")
-	)
-	(junction
-		(at 219.71 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7e45519-5228-4339-99ae-5668b474b361")
 	)
 	(junction
 		(at 331.47 62.23)
@@ -19126,22 +19369,22 @@
 		(uuid "e9f79306-d619-4806-9860-8d54473c5fa8")
 	)
 	(junction
-		(at 152.4 252.73)
+		(at 147.32 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec1ed94c-2405-4c40-8b69-ac8cfe3adde2")
+	)
+	(junction
+		(at 123.19 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f16418f3-8bca-4e5f-b406-fc5730f59b9f")
 	)
 	(junction
 		(at 264.16 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f468c6eb-0370-4757-843e-bcb2196910e8")
-	)
-	(junction
-		(at 49.53 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fabf327b-66f4-4180-8e5e-8129aa13d349")
 	)
 	(junction
 		(at 248.92 52.07)
@@ -19160,7 +19403,7 @@
 		(uuid "15eab617-7129-44f9-8b34-edee91430f1a")
 	)
 	(no_connect
-		(at 132.08 247.65)
+		(at 123.19 247.65)
 		(uuid "17f88d96-a83e-4694-bfc2-d8f99ae41467")
 	)
 	(no_connect
@@ -19172,6 +19415,10 @@
 		(uuid "41826d87-5d46-4ae3-a1cd-5fd4b8c9465e")
 	)
 	(no_connect
+		(at 93.98 99.06)
+		(uuid "43561458-ebb6-47e4-a655-0746d09ce2a0")
+	)
+	(no_connect
 		(at 257.81 242.57)
 		(uuid "4b44fe05-6e86-44f1-bfee-0c5da3438320")
 	)
@@ -19180,7 +19427,7 @@
 		(uuid "4c34571d-8a84-4b6a-a0c0-2ce8a0742cea")
 	)
 	(no_connect
-		(at 101.6 261.62)
+		(at 92.71 261.62)
 		(uuid "50fa4ba1-4152-4d21-9247-85e193352f72")
 	)
 	(no_connect
@@ -19200,7 +19447,7 @@
 		(uuid "6f896199-aab7-4a3c-be85-9f3a293237c4")
 	)
 	(no_connect
-		(at 132.08 242.57)
+		(at 123.19 242.57)
 		(uuid "6ff7b391-01be-4c4a-8273-f932b0635a43")
 	)
 	(no_connect
@@ -19228,7 +19475,7 @@
 		(uuid "96cef703-2fc5-4589-9675-3924ce8d516e")
 	)
 	(no_connect
-		(at 132.08 245.11)
+		(at 123.19 245.11)
 		(uuid "a1772730-6b62-460b-aa07-5cf7f3897094")
 	)
 	(no_connect
@@ -19250,10 +19497,6 @@
 	(no_connect
 		(at 93.98 73.66)
 		(uuid "e6797b0b-d841-4921-944a-e3baa45c2217")
-	)
-	(no_connect
-		(at 93.98 81.28)
-		(uuid "f493d4b4-cdc7-4f74-a33b-6b55d8fa905a")
 	)
 	(no_connect
 		(at 257.81 245.11)
@@ -19367,6 +19610,16 @@
 		)
 		(uuid "0602d77a-c5a3-4930-aece-3360850e623f")
 	)
+	(wire
+		(pts
+			(xy 93.98 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b11f1d-b2cc-492a-955e-413d644c6185")
+	)
 	(polyline
 		(pts
 			(xy 95.885 162.56) (xy 95.885 141.605)
@@ -19380,7 +19633,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 114.3) (xy 199.39 114.3)
+			(xy 194.31 114.3) (xy 210.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -19410,7 +19663,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 45.72) (xy 38.1 43.18)
+			(xy 38.1 44.45) (xy 38.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -19531,23 +19784,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 256.54) (xy 88.9 261.62)
+			(xy 80.01 256.54) (xy 80.01 261.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "12ad8bb2-9601-4a89-a2f3-6d44e7d515b1")
-	)
-	(wire
-		(pts
-			(xy 120.65 54.61) (xy 120.65 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b3efef-bb5b-42d1-8683-1923520700ea")
 	)
 	(wire
 		(pts
@@ -19581,7 +19824,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 245.11) (xy 41.91 245.11)
+			(xy 20.32 245.11) (xy 33.02 245.11)
 		)
 		(stroke
 			(width 0)
@@ -19628,16 +19871,6 @@
 			(type default)
 		)
 		(uuid "149aee4e-fb4a-4d4b-b46f-3b370e698419")
-	)
-	(wire
-		(pts
-			(xy 93.98 101.6) (xy 120.65 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1539a214-fba3-48a5-b619-4fe525f9116b")
 	)
 	(wire
 		(pts
@@ -19691,16 +19924,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 118.11 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "182cb081-3db1-423a-be17-c7fe370986bc")
-	)
-	(wire
-		(pts
 			(xy 46.99 156.21) (xy 46.99 162.56)
 		)
 		(stroke
@@ -19731,7 +19954,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 265.43) (xy 99.06 278.13)
+			(xy 90.17 265.43) (xy 90.17 278.13)
 		)
 		(stroke
 			(width 0)
@@ -19751,7 +19974,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 245.11) (xy 41.91 278.13)
+			(xy 33.02 245.11) (xy 33.02 278.13)
 		)
 		(stroke
 			(width 0)
@@ -19771,7 +19994,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 252.73) (xy 165.1 261.62)
+			(xy 160.02 252.73) (xy 160.02 261.62)
 		)
 		(stroke
 			(width 0)
@@ -19801,6 +20024,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 54.61) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20575b7c-96a8-4877-bd81-16cbbe75a58b")
+	)
+	(wire
+		(pts
 			(xy 139.7 59.69) (xy 161.29 59.69)
 		)
 		(stroke
@@ -19811,7 +20044,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 242.57) (xy 57.15 242.57)
+			(xy 43.18 242.57) (xy 48.26 242.57)
 		)
 		(stroke
 			(width 0)
@@ -19871,23 +20104,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 256.54) (xy 88.9 256.54)
+			(xy 92.71 256.54) (xy 80.01 256.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "284ca904-7eee-4f35-8e3b-5ca751fda7ad")
-	)
-	(wire
-		(pts
-			(xy 219.71 58.42) (xy 219.71 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285a9c82-fdf0-4cea-bdd9-0ea78994c115")
 	)
 	(wire
 		(pts
@@ -19942,7 +20165,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 269.24) (xy 165.1 278.13)
+			(xy 160.02 269.24) (xy 160.02 278.13)
 		)
 		(stroke
 			(width 0)
@@ -20033,7 +20256,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 252.73) (xy 165.1 252.73)
+			(xy 147.32 252.73) (xy 160.02 252.73)
 		)
 		(stroke
 			(width 0)
@@ -20053,7 +20276,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 233.68) (xy 165.1 252.73)
+			(xy 160.02 233.68) (xy 160.02 252.73)
 		)
 		(stroke
 			(width 0)
@@ -20063,7 +20286,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 125.73 100.33)
+			(xy 128.27 86.36) (xy 128.27 87.63)
 		)
 		(stroke
 			(width 0)
@@ -20073,7 +20296,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 265.43) (xy 138.43 265.43)
+			(xy 123.19 265.43) (xy 133.35 265.43)
 		)
 		(stroke
 			(width 0)
@@ -20193,7 +20416,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 269.24) (xy 78.74 278.13)
+			(xy 69.85 269.24) (xy 69.85 278.13)
 		)
 		(stroke
 			(width 0)
@@ -20273,7 +20496,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 252.73) (xy 138.43 252.73)
+			(xy 123.19 252.73) (xy 133.35 252.73)
 		)
 		(stroke
 			(width 0)
@@ -20313,6 +20536,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 57.15) (xy 123.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47873114-dc75-437f-8d7a-649a6f4df9db")
+	)
+	(wire
+		(pts
 			(xy 388.62 231.14) (xy 388.62 205.74)
 		)
 		(stroke
@@ -20343,7 +20576,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 99.06) (xy 125.73 99.06)
+			(xy 129.54 86.36) (xy 128.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -20481,16 +20714,6 @@
 			(type default)
 		)
 		(uuid "50b8d5de-158d-4882-b60d-198493c2dbb1")
-	)
-	(wire
-		(pts
-			(xy 118.11 91.44) (xy 127 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51611292-9bd9-4d82-9b13-50baef93a546")
 	)
 	(wire
 		(pts
@@ -20706,6 +20929,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 52.07) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6135493c-501a-41f8-9d30-2cf391802fbf")
+	)
+	(wire
+		(pts
 			(xy 59.69 68.58) (xy 63.5 68.58)
 		)
 		(stroke
@@ -20773,6 +21006,16 @@
 			(type default)
 		)
 		(uuid "69151d75-be74-4951-b66c-e348cf08c1b7")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adf571a-8a11-4bd7-a16d-684a5f00488c")
 	)
 	(wire
 		(pts
@@ -20896,7 +21139,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 248.92) (xy 78.74 261.62)
+			(xy 69.85 248.92) (xy 69.85 261.62)
 		)
 		(stroke
 			(width 0)
@@ -20906,7 +21149,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 267.97) (xy 138.43 265.43)
+			(xy 133.35 267.97) (xy 133.35 265.43)
 		)
 		(stroke
 			(width 0)
@@ -20923,6 +21166,16 @@
 			(type default)
 		)
 		(uuid "72898226-b9fc-41cb-b3b0-d4e741ed95f8")
+	)
+	(polyline
+		(pts
+			(xy 33.02 241.3) (xy 34.29 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fb300e-f448-441f-ab1d-507336219c7f")
 	)
 	(polyline
 		(pts
@@ -21016,7 +21269,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 248.92) (xy 78.74 248.92)
+			(xy 92.71 248.92) (xy 69.85 248.92)
 		)
 		(stroke
 			(width 0)
@@ -21066,7 +21319,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 245.11) (xy 99.06 245.11)
+			(xy 92.71 245.11) (xy 90.17 245.11)
 		)
 		(stroke
 			(width 0)
@@ -21116,16 +21369,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 57.15) (xy 115.57 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81c10e28-f7a7-4b0a-a9b5-1093ddc25805")
-	)
-	(wire
-		(pts
 			(xy 25.4 90.17) (xy 25.4 93.98)
 		)
 		(stroke
@@ -21166,7 +21409,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 242.57) (xy 57.15 261.62)
+			(xy 48.26 242.57) (xy 48.26 261.62)
 		)
 		(stroke
 			(width 0)
@@ -21306,7 +21549,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 233.68) (xy 57.15 242.57)
+			(xy 48.26 233.68) (xy 48.26 242.57)
 		)
 		(stroke
 			(width 0)
@@ -21336,7 +21579,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 278.13) (xy 138.43 275.59)
+			(xy 133.35 278.13) (xy 133.35 275.59)
 		)
 		(stroke
 			(width 0)
@@ -21527,7 +21770,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 250.19) (xy 39.37 250.19)
+			(xy 20.32 250.19) (xy 30.48 250.19)
 		)
 		(stroke
 			(width 0)
@@ -21557,7 +21800,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 45.72) (xy 49.53 43.18)
+			(xy 49.53 44.45) (xy 49.53 43.18)
 		)
 		(stroke
 			(width 0)
@@ -21587,7 +21830,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 252.73) (xy 152.4 261.62)
+			(xy 147.32 252.73) (xy 147.32 261.62)
 		)
 		(stroke
 			(width 0)
@@ -21617,23 +21860,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 269.24) (xy 68.58 278.13)
+			(xy 59.69 269.24) (xy 59.69 278.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95913b80-37bc-4b01-9cea-210c7b2b6440")
-	)
-	(wire
-		(pts
-			(xy 115.57 96.52) (xy 127 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98084ab3-9525-43a9-af29-f7b2936ceafe")
 	)
 	(wire
 		(pts
@@ -21667,16 +21900,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 52.07) (xy 118.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b869acc-c6de-458c-a19d-675c6478fc9f")
-	)
-	(wire
-		(pts
 			(xy 21.59 210.82) (xy 31.75 210.82)
 		)
 		(stroke
@@ -21707,7 +21930,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 285.115) (xy 175.26 222.25)
+			(xy 172.085 285.115) (xy 172.085 222.25)
 		)
 		(stroke
 			(width 0.635)
@@ -21746,6 +21969,16 @@
 			(type default)
 		)
 		(uuid "a1114356-941e-40e7-8f06-52700005be1b")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.52) (xy 118.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1127bd1-8e7b-440c-821c-93793a10bd17")
 	)
 	(wire
 		(pts
@@ -21859,7 +22092,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 242.57) (xy 99.06 242.57)
+			(xy 59.69 242.57) (xy 90.17 242.57)
 		)
 		(stroke
 			(width 0)
@@ -21897,6 +22130,16 @@
 			(type default)
 		)
 		(uuid "aa2b64be-bdb4-43a6-96e6-76407ac27c55")
+	)
+	(wire
+		(pts
+			(xy 93.98 101.6) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa357ea3-5494-4858-a39e-48f53ddc6e2a")
 	)
 	(polyline
 		(pts
@@ -21940,7 +22183,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 269.24) (xy 152.4 278.13)
+			(xy 147.32 269.24) (xy 147.32 278.13)
 		)
 		(stroke
 			(width 0)
@@ -21997,6 +22240,16 @@
 			(type default)
 		)
 		(uuid "b04938ce-9c96-4157-a8d1-f7bf06a4bbe6")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 118.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14120c8-463b-4316-b9fb-58a0b63294a8")
 	)
 	(wire
 		(pts
@@ -22110,7 +22363,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 125.73 85.09)
+			(xy 128.27 76.2) (xy 128.27 72.39)
 		)
 		(stroke
 			(width 0)
@@ -22120,17 +22373,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 120.65 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8112aa8-0268-43ac-b624-21d771327c15")
-	)
-	(wire
-		(pts
-			(xy 38.1 54.61) (xy 38.1 53.34)
+			(xy 38.1 53.34) (xy 38.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -22150,7 +22393,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 119.38) (xy 199.39 119.38)
+			(xy 195.58 119.38) (xy 210.82 119.38)
 		)
 		(stroke
 			(width 0)
@@ -22190,7 +22433,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 278.13) (xy 88.9 269.24)
+			(xy 80.01 278.13) (xy 80.01 269.24)
 		)
 		(stroke
 			(width 0)
@@ -22200,7 +22443,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 57.15) (xy 161.29 57.15)
+			(xy 123.19 57.15) (xy 161.29 57.15)
 		)
 		(stroke
 			(width 0)
@@ -22217,16 +22460,6 @@
 			(type default)
 		)
 		(uuid "bea2a7f6-441e-4024-9fdf-1b1f99c009e7")
-	)
-	(wire
-		(pts
-			(xy 219.71 50.8) (xy 219.71 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed3b7d0-495c-43f0-aad1-63493cb9db57")
 	)
 	(wire
 		(pts
@@ -22270,7 +22503,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 242.57) (xy 68.58 242.57)
+			(xy 48.26 242.57) (xy 59.69 242.57)
 		)
 		(stroke
 			(width 0)
@@ -22287,6 +22520,16 @@
 			(type default)
 		)
 		(uuid "c5e624fa-fbe2-40e6-9965-7c5e7e9cfb8a")
+	)
+	(polyline
+		(pts
+			(xy 160.02 233.68) (xy 161.29 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6718d6c-37d4-49ee-bd1d-f55e5b14da96")
 	)
 	(polyline
 		(pts
@@ -22318,6 +22561,16 @@
 			(type default)
 		)
 		(uuid "c80a3932-2b7f-46bd-887d-632540de8ee2")
+	)
+	(wire
+		(pts
+			(xy 123.19 78.74) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9911d39-29eb-4537-b16f-aa1b95a5855c")
 	)
 	(wire
 		(pts
@@ -22422,13 +22675,23 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 116.84) (xy 199.39 116.84)
+			(xy 185.42 116.84) (xy 210.82 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd582d6a-543b-4d43-8371-7399ccede40f")
+	)
+	(polyline
+		(pts
+			(xy 158.75 234.95) (xy 160.02 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb684fc-669e-48bc-86fc-30397346d045")
 	)
 	(wire
 		(pts
@@ -22463,6 +22726,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f97f22-b419-493e-a605-851d27e36735")
+	)
+	(wire
+		(pts
 			(xy 182.88 185.42) (xy 182.88 191.77)
 		)
 		(stroke
@@ -22473,7 +22746,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 247.65) (xy 39.37 247.65)
+			(xy 20.32 247.65) (xy 30.48 247.65)
 		)
 		(stroke
 			(width 0)
@@ -22493,7 +22766,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 269.24) (xy 57.15 278.13)
+			(xy 48.26 269.24) (xy 48.26 278.13)
 		)
 		(stroke
 			(width 0)
@@ -22520,6 +22793,16 @@
 			(type default)
 		)
 		(uuid "d4a2bc51-3231-4f5f-8211-9016403c8333")
+	)
+	(polyline
+		(pts
+			(xy 34.29 242.57) (xy 33.02 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50e3649-54e8-4bb0-86da-0f6f569c23ea")
 	)
 	(wire
 		(pts
@@ -22573,7 +22856,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 265.43) (xy 138.43 262.89)
+			(xy 133.35 265.43) (xy 133.35 262.89)
 		)
 		(stroke
 			(width 0)
@@ -22613,7 +22896,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 52.07) (xy 219.71 52.07)
+			(xy 186.69 52.07) (xy 232.41 52.07)
 		)
 		(stroke
 			(width 0)
@@ -22824,7 +23107,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 255.27) (xy 39.37 255.27)
+			(xy 20.32 255.27) (xy 30.48 255.27)
 		)
 		(stroke
 			(width 0)
@@ -22834,7 +23117,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 252.73) (xy 152.4 252.73)
+			(xy 133.35 252.73) (xy 147.32 252.73)
 		)
 		(stroke
 			(width 0)
@@ -22854,7 +23137,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 265.43) (xy 99.06 265.43)
+			(xy 92.71 265.43) (xy 90.17 265.43)
 		)
 		(stroke
 			(width 0)
@@ -22874,7 +23157,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 252.73) (xy 29.21 252.73)
+			(xy 30.48 252.73) (xy 20.32 252.73)
 		)
 		(stroke
 			(width 0)
@@ -22884,7 +23167,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 242.57) (xy 101.6 242.57)
+			(xy 90.17 242.57) (xy 92.71 242.57)
 		)
 		(stroke
 			(width 0)
@@ -22894,7 +23177,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 242.57) (xy 44.45 242.57)
+			(xy 20.32 242.57) (xy 35.56 242.57)
 		)
 		(stroke
 			(width 0)
@@ -22964,16 +23247,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 115.57 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed27b3cd-71da-4ef7-a7d0-462a1ea91118")
-	)
-	(wire
-		(pts
 			(xy 369.57 151.13) (xy 369.57 153.67)
 		)
 		(stroke
@@ -22994,7 +23267,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 242.57) (xy 68.58 261.62)
+			(xy 59.69 242.57) (xy 59.69 261.62)
 		)
 		(stroke
 			(width 0)
@@ -23021,16 +23294,6 @@
 			(type default)
 		)
 		(uuid "f104785b-5473-4922-87d4-769341780147")
-	)
-	(wire
-		(pts
-			(xy 118.11 91.44) (xy 118.11 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f174c3ef-b16c-42ee-a630-af4dcb13cc32")
 	)
 	(wire
 		(pts
@@ -23074,6 +23337,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 81.28) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86e83f4-2c71-4d9b-bf5a-a00d72d1dc55")
+	)
+	(wire
+		(pts
 			(xy 109.22 44.45) (xy 109.22 43.18)
 		)
 		(stroke
@@ -23094,7 +23367,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 245.11) (xy 99.06 242.57)
+			(xy 90.17 245.11) (xy 90.17 242.57)
 		)
 		(stroke
 			(width 0)
@@ -23144,7 +23417,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 255.27) (xy 138.43 252.73)
+			(xy 133.35 255.27) (xy 133.35 252.73)
 		)
 		(stroke
 			(width 0)
@@ -23161,16 +23434,6 @@
 			(type default)
 		)
 		(uuid "fb6255e3-39b2-4970-9ea0-d3b298c626d5")
-	)
-	(wire
-		(pts
-			(xy 219.71 52.07) (xy 232.41 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb63945c-c631-4382-a5d3-35fbc419ccd3")
 	)
 	(wire
 		(pts
@@ -23204,7 +23467,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 125.73 88.9)
+			(xy 129.54 76.2) (xy 128.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -23232,16 +23495,6 @@
 		)
 		(uuid "fe421154-3bc9-435e-8a8c-1ff56b865f61")
 	)
-	(wire
-		(pts
-			(xy 120.65 93.98) (xy 127 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb5344e-fc85-428e-b956-aabd31008423")
-	)
 	(polyline
 		(pts
 			(xy 209.296 184.912) (xy 209.296 206.756)
@@ -23264,7 +23517,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 54.61) (xy 49.53 53.34)
+			(xy 49.53 53.34) (xy 49.53 52.07)
 		)
 		(stroke
 			(width 0)
@@ -23446,6 +23699,196 @@
 			"hGrIfdVCiIkAAAAASUVORK5CYII="
 		)
 	)
+	(image
+		(at 103.505 276.86)
+		(scale 0.482593)
+		(uuid "c046687e-917f-4509-b974-2c99038e438a")
+		(data "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"
+			"3nFObNSZCMBac3NzPT09giA899xzVsdiEgysaMwvqdXZihubVscsCMaODh8+vGLFim5rMJqdnT1+"
+			"/Pjq1autDqTroGppns7o2d8ku/fsnx/07LcKEpl5OqNnf5Ps3rN/ftCz3yqoWpoHY/YDtAnuyADA"
+			"9pDIAMD2kMigLWzfs39e0LPfKl13qVmoq/pJdkDP/nlAz36rIJGZx8Y9+1vXGT37W2WDnv1GIx7L"
+			"Yad+BHP94ObeytEBEt4lOeg5Epl5bDpm//zcfPPNr732mtVRQBXXkM9BSlY/xK88MaUUBsuUQywj"
+			"yMFc4ffFckCXy7IhJyPIw/mVuWFZWDq5TAVog3Xr1v3qV7+yOgqznT59+r333rM6ClWbLUEQBMO1"
+			"uWGWiC+NMJcJssQGM6qqqmqML1ulFXbk85roKRuZTlVzQQexhbxmLdyRmaerevZ3oW3btl166aWf"
+			"+MQnBgcHjx07ZnU4NXEBH6sbUU4/O0H1OObc2LSqRDgiooSYJn6gbGVEaeq39CZAIjPPCy+8sGvX"
+			"LqujgLZ49tlnv//97x85cuTDDz+cmpq6++67rY6oNteQz1Ecul2emFK0YZCJ5IMysa4+41dlD8rE"
+			"cjVWWg49+83z+OOPr1279q677rI6EFh8zz///H//+1/t79OnT+/cudPCXHbmzJm667mhjWx06qBM"
+			"fi47kZxhfYElcVe1EEhk5nE4HLfeeqvVUUBbXHjhhfp/zz77bAvP9UcffVR/AB8u4GPHkxPZyFDZ"
+			"rHfcGo6i2UNERnnNtYajqHyIqO4YuZaxupGui2zYsGHnzp1WR2GSbmvsf/XVV1esWKF9ppYvX37/"
+			"/fdbGEz9xn5VVQvt9GJla31VY79+SVVjv8ESqyCRmWfDhg1PPfWU1VGYpNsSmaqq6XT66quvPv/8"
+			"80dHR62NpIlEpj27JCo+rywsDjqo+JhSVUWedJkuE2T1/8b4qpdbBonMPI899tjKlStvv/32p59+"
+			"+sSJE1aH015dmMhUVd2zZ8+NN95odRRNJTItK+lyVonoKdXYyqatUFUttRVXLombMVVV0f3CTN/+"
+			"9rePHj26efPmXbt2rVq1anBwsHuGJ4MlxxWZVtVC14oyfqmUIFKVs8z4U7qVS2fMdyQys/X39//4"
+			"xz9+9NFH9+3bt3Hjxg8++MDqiABsD4nMVDt37uzv77/kkksymcwTTzxx6tSpiqddADAP6H5hhv37"
+			"9+/YsWPHjh29vb0DAwM/+clPLrjgAquDAugcSGRt9Pe//33Hjh3bt28/derUpk2b9uzZ04UDQgCY"
+			"AImsXZ588slvfOMbN9xww9jY2G233WZ1OACdDG1k7XLfffc9++yzF1544fr16++55550Om11RAAd"
+			"C4msjfx+/wsvvKAoSl9f36OPPvqpT30qHA4fOHDA6rgAOg2jYjJRs2QymR07dkxOTn7sYx/r7+/v"
+			"7++//PLLrQ5qnh5++OF9+/Yt8E1efvnlRQlm6Xj99dcffPDBPXv2WBvG3NxcT0+PIAj1f3HZSdBG"
+			"Zh632+12u7/3ve/t3r17cnKS47iLL754ZmbG6rjm47rrrrvuuuusjgIgD4nMbH/605/27t27d+/e"
+			"K6+8sr+/3+pw5un222+3OgSAEiQykxw+fHhycnJycvLPf/5zf3//008/jTsagMWCRNZ2P/vZzyYn"
+			"J7U+/Vu2bFm/fr3VEQF0GiSydtF+H/7rX/+6r69PuwVDb36ANkEia5dsNrt///5Vq1atXbt27dq1"
+			"nZrFXn755UYDK1fieb5xIYBWIJG1y9q1a9955539+/dPTk7ecsstn/70p7UuF6tXr7Y6tEX2f//3"
+			"fy2VRyKDRYdE1l5aN4Vt27b9/Oc/n5ycvP/++++8887+/v6OmYLkjjvuuOOOO6yOYql48803T548"
+			"aXUU3Qg9+02yfv16URSPHDly++23/+hHP7r44ou/9rWvvf7661bHBYvpmmuuOe+886yOohshkZnq"
+			"ggsu+OpXv7pr167vfOc7u3fvvuWWW9555x2rgwKwPSQyU6XT6XvuuWfVqlV79+596KGHZmdnP/nJ"
+			"T1odFIDtoY3MDAcOHNB6w1522WX9/f2PPfbYpZdeanVQAJ0DiayN3n77bS1/HTlypL+/f9euXW63"
+			"2+qg2mtkZGTHjh0VC2VZXrZsmSXxLGUJnhEKYzvxseppPqAFSGTtog2suHbt2tHR0e75ZeLmzZs3"
+			"b95sdRRLnxxie6MUzKkRjoiyIaeb8RJy2fwhkbXLfffdt3LlysnJyTvvvHPTpk2bNm36/Oc/b3VQ"
+			"bXfllVdaHYIdxEPRGV5UC1OxuSKp4WTv1pA8aDA5GzQDjf1t5Pf7X3zxxenp6auvvnrr1q1Op/Ov"
+			"f/2r1UGB9RLbJfII+kkhubFpwykmoUlIZG136aWXfutb39q/f7/D4chkMlaHA5aTD8rEuvqsDqOj"
+			"IJGZZ+XKlVaHAEtbNuRkvInS/wkv4wxlSQ47GQ0bkrU1cW9+SVn57oVEBmAybg1HSvaQwRpXZNQj"
+			"ifHCv3FRcviGDnl7p3w5VVVVNbcx6Q3LlA05AySqqqqqaowEHqkMicxEuVxu7969VkcB1vMP8JQW"
+			"y9JP3KvdW/kHeGl7fk1iu8RuHDq0XQ6+lG8+48amUwGSY0kulso3sQ2m1LE+2dTwlyIkMvPcdNNN"
+			"mKAXiIgGI0GHJBTriZTwBiR2OOInokGBz+e4hJjmR8cqHwBwrqpHAi4OTwnQ/WJJkMPO3nEKZqYj"
+			"rvm9QcLLCJL2pyOYKz3/Ki7nRTVVfExW7Ipp2A8zwTMCiaqkf6qW8DIClRWuXrI45LCzd1zR/jYM"
+			"r2EBbe/4qmglYrUjXL2DRrtczw9+8APD5ceOHbvllltqrd2yZUvhTy6iqGt4ppeJFndkOh+tPzI8"
+			"EoqTn0TJI6SIyuuNciJOFY8JEvGEf7DZyDsV7siWAnliingPJWPzqyLIIVaQh/OtKEGK9hYaTRK8"
+			"IHlEVVVFj1RqSYl7hTQvqqoa46WACU3FCS/DeOONyxERxb2941yh9YeXAs5QtsUCRETEOthiBY2I"
+			"KC5K8w7fyPHjx/9p5IMPPvjggw8MV/3zn/+seBO/pBbp0zEX8MnbE4ntEj/gJyL/ABf9Yv7eTQ57"
+			"ha0TFPDJxRMX9woBEY1kpIJZ1q9fHw6HDVbEeHIEczGeiBcXvJXcMEuOYE5VVVXkifiYqqqqmgmy"
+			"hTcXPUQe7c9c0FEooKMrUFpWequaS2ppvmSrLzQuIHqI9fCs7mDmhlnWw7PEBjP5AhU7aLTLFsoF"
+			"HVQ4iaqqnVNNcWGsODilwTUzOztLRIIgmBax5XBHZp73339flg3uubQ2XW5Q4En3xKqo9KCdqXwG"
+			"X1/2oEwsV6qHyAezVN2JSc7UfrNsyMkwznCDrSX48vDKHqLJIVaQiKRA4aYsGyp0JTC+mVocLsHn"
+			"KB5MeWKKfANNtSOVOjq0dKgXGRdRVH3/WG5sOv95LS4cTBU+wqlur1USEaqWZrr55puvvfbaqsUJ"
+			"Mc36AhyRPzJcXiHSlC5ZtfJqNpAIjSvsxqFCAW6N1ujmWqN/CefOPwRbU+fTnQ053UlfRp0utDdL"
+			"Af1HXChW1kpVpEyQJTY4VtZlPaLk75tSg0SU8LqjXExVVTU3TFF3vYqtHB6RiBdqt8HVLdA3tLFw"
+			"MLMTSfINVTQspYWynSn8eLuUMrTbvUfQ294ekMisFhclz6jWxs8FfGx6Ie0dcogVJEcwVfWoq/V3"
+			"GnG6k77yhw/VVctyWpKq+7wiLhZTDzc2anwHmi/p7R1X+Fjt241GBbiAj5UPykRyLKlUZ+zqqmWZ"
+			"fLMjfsVtF0hk1pJDW6XS3YE7qpA0UlGVa7ZqWRhQoex+TatOatVM3dJ8dVI+WKviNEPkUKLh5pNq"
+			"U598OSOTg2v825y4lwlI9Ua2aViAiFxruJnkRFaemFK0VvPmJfjeKCdOL/z7oKHKrvzNlK/Qzhq6"
+			"fSCRWSo7kZwpa6zNDbPK1ERZemmqaimH2N4oJ5atclXchmjVzMqbk0I1s5xndFoR+bTQ5NPGJj/5"
+			"nJujGdmoS7tO3MsE5GCmfharWyDPL3iUZDiUnKlXP60mh52CHMw13RVj/rIhpzuqtPyy/COLgnl3"
+			"2ekoSGRWkmNJpWIUhICPnUlOtPgdm+B7o1T92fMLnvxdVSIcLW7IP8Ar46EE5QeTqf0h96ea65/R"
+			"widf90DDuIUrG3IGJL5O/bRhAR3/AK+kpYoj3IDWvaP9A1HIYSfjjnIezIy3OJDILJQIjVfVelxD"
+			"vtbqdESUENNEM9HeUnUjn338ksinBYZhhDQvFhPNYEr0SALDMAGpXiMUFTqgN/gpXyI0rpRtvbLm"
+			"6xc8JAW0p5/+VCYoBxiGYXrHKZip3LocSyrlTxW0Z6Zy2Kk9DK1VoEb8Ak/USr1SDm2ViCTdg4C2"
+			"9bNzj+ZUNTVQa3X+5+L5f/jGz467HKOqqtUxdIuHH36YiB566CGrA4GFEkXxwQcfrF5+8uTJjz76"
+			"aMWKFdWrzjrrrL/85S+VS+NeJkCiQReKhJcZ4QoPWxI8M+LKTY9x1bVRw4bCubm5np4eQRCee+65"
+			"lvbLvvATJYCWXX/99bt3765evm/fvh/+8IeiKLZz4+wCfsrWsZDIAFrGsqzhckVRzjvvvFproX3Q"
+			"RgawNCmF57u1e8lAARIZwBJV+mXCjMWRLH2oWgIsTSxPIwwjEPG8h+ZxT/bOO++88sorix/XkoRE"
+			"BmCdwZRau7MuNzadqhh+yBWZViNNvverr7766quvzj82W0EiA+g0y5Yt++Uvfzk9PW11IOZBIgPo"
+			"QLfeeuutt95qdRTmQSJbNIcPH65f4OTJk80UW7169aLFZI5SL81iFyc5xPbKHC+lJfK0MIQ0FPhT"
+			"Kg5aC5DIFs0f//hHn8/XsNhTTz1VZ20ymVy3bt2ixWSG/BBj04Mkh529bu+aQj91SeZyagrjeYEJ"
+			"kMgWzbp16xrebXWguCgRLxaHGBsXxDj5B4mIdOM7ArQX+pHBgjQ7xBhAOyGRwYI0NcRY13jzzTdn"
+			"ZmasjqIbIZHBwjQcYqzLHDlyxOoQuhHayGCB/KnMQaebYQJExFYPMdZV+vr6rrnmGquj6EZIZIvv"
+			"1KlT9957b0sveeqpp5YvX96meNrOoLs5F1Ga7oEOsGBIZG1x2223WR0CQBdBIlt8y5cvHxzs7oYi"
+			"AHOhsR8AbA+JDABsD4kMAGwPiaztfl+DeRFUTU8977nF5HDpnQzn7m1YIMFXr0p4dTNmJ3iGKZ+A"
+			"rnoJQAU09rfd+++/PzIyUrFwdHTU3Ch0U+9kQ053r9fdcKbuKtrkteq0n7R5zJyhvvLpfBoW0EJx"
+			"sNL2BA0WOpzFRamyCEBrkMja7rbbbltavTFcQz5HNJmRiVr8Tbd+ONNBgQ8I8iEiVysFNBzHpsUE"
+			"+bVMJmdk1sNTGhNswPyhatl9shPJGdYXqMhicohlKhjWDReBS/A58r9qIpInpsg30FRK1ddbjaY0"
+			"h+6FRNYllKi78Pl3R7lYdY2PiyhqhTp1z4Y/q6xboG9oI1uaIoh8QxWjZ6QFfb4S0oUQx6YLoYk8"
+			"Ef9IBMMEgQaJrEuwwUwxQYkUmH97P5HWFqbwsdo/q2xUgAv4WPmgTCTHkgq3pjIfeUR9PhU9Favl"
+			"ECvIw7mW2/igcyGRdSF/ZJhVpibKM1nTVcu4lwlIfKz2/VrDAkTkWsPNJCey8sSUwg+09jPzBN8b"
+			"5cTpMdyNQQka+0HT3M+8414mIAczavWzyGYL5PkFjzASDtEMPzpIlG02SjnsFORgTunmITbAABJZ"
+			"F0qExhV2uPVxqLMhZ0DiY7WTVMMCOv4BXghI5BFbyEn57h1WNo298MILddZms9nrr7++fhki2rBh"
+			"w6IGBUhk3UKJuplo8T+PqLZeNZNjSYVICWhDjxERscO56TFODjt7s6Oq5K9VwPjtBgU+IFEL9Uo5"
+			"tFUiIoFhhPwSXlTNHv7s2WefbVgml8vVWfu5z30OiWzRMaqqWh0DAMCCoLEfAGwPiQwAbA+JDABs"
+			"D4kMAGwPTy0B5uO6667717/+1Xz5H/3oRx5P5W8UYLHgqSXAfLz99tutvuTyyy9vRyRASGQA0AHQ"
+			"RgYAtodEBgtWGko7P1y19hN0L+9lGIxSDWZAIoMFSnjdUS6mqqqaG6ao21vMW5LM5VRVlfADb2g7"
+			"tJHBwsS9TIAKv3lMeBmBYmpqUA6xvcmNtX9o2Vnm5ua2bdtWvTwcDpsfTHdC9wtYEDkjk8PX17hg"
+			"h3vvvfcqlixbtsySSLoTEhksCOfmaFw+1PJEJh1l2bJljz/+uNVRdDW0kcHCDAo85WcSaTiQP0Cb"
+			"4I4MFsifyhx0urUxyNhgxuwBwgAIjf0A0AFQtQQA20MiAwDbQyIDANtDIgMA20MiAwDbQyLrWgmv"
+			"bk7xhf6wO+5l2JBssELbSvn7x70MwxTKJ7yVU5pXLwFoAImsK2VDTkaQh3Oqqv3YWxYWksviXiYg"
+			"1V7Nso58j1lNYnudwgDzgUTWjRLhqOIRi7/o5sZSQYc0Eja6o2r4VjzDBGTew9Ypw3GstL2YJ+WD"
+			"Mlu/PECrkMi6UEJME182xTcXUdSqkSr0dc+K4cZ0BkRVnY646m2PG/CxaTGfybITSfIJdcuXIuDL"
+			"t4+hzaAGJLLukz0oE8s1HrDCn1IrGCQs/2ATP0nqG/IVapdyLEkbhyo2LgX06Uoo1jz9UmHLmSBL"
+			"bHAMP38CY0hkYAJuaCMrZ2QieWJK4dyVI2XwMX26FPnKl2tjNza474NuhkTWfVxrOFLkQw3LNVe1"
+			"bA7n5pSpCTk7kZxpdXgMOcQK8nAuhUE1oDYksi7kFzyka30n0lqjKlugmqpaNmtQ4GeSoXBS8Qgt"
+			"1Q8TfG+UE7tkpFmYNySybuQfC7JpwVl8TBn3Cul2t0D5BY8ipZXyhwwNyGGnIAdzGPUfGkEi60qu"
+			"yLQqcuO9+SpjgMSF3G01xz/AU2vDLiZC4wrNRHuLVVvjPrcAGI8MAOwPd2QAYHtIZABge0hkAGB7"
+			"SGQAYHtIZABge0hkAGB7SGQAYHtIZABge0hkAGB7SGQAYHtIZABge0hkAGB7piWyhHdRx1yvHM29"
+			"NKa7HGIZ5zzm0ciGnDXGEay9rYZaCMZoRLAabxp2Ls4cbpay9V4UT1bzZ60hOezUhvdYxPcsiXuN"
+			"DvV8PyxNaHYvFikwsxJZXJQ8PF+cgWLBiqO5ix4ij5j/Z6EDV7HBjG7EZY8S/WJIbte25i0RGlf4"
+			"mKqqqeYjKH5IzFfjgp7PXrS65e6ZH9PC89uQObGZk8jk0FaJH4hw851zzBL+sSA7k5yY7+DORFRj"
+			"dqIam5OaT47NTB2y9HXGXiy+Vq6EpWthe9HCB0djSiLLj9TODW1klakJUzLZRGG8+dJda6Eu057x"
+			"+bIhJ+MMhfObLdwVF++Q5RDLOHmvsyqqotKdi66SW3VDkfAygkRK1J3fhK7aqx9QvzTcvjdOFPf2"
+			"aiMUFna89KrivVLcy7BeL8swjNN7A6MfPNb4cMW9jberDfGaJkoL5TdllXthcGp08VRNFFC5Fe2I"
+			"6Y85w4+HWEEikgJlZcoDlkMs4+W92nFI8AzDe73VO6Vvc6hVVyo7SlSYQsgAAAYzSURBVAmv4eQG"
+			"pSOmrzTJIbZyi4b1Vv19Ten0aUsqz2/xPSuvtIOF42x0o1p1VGvGr4Uqh9hiSf3Nb37388E3c+3p"
+			"Amvhg1OMh/d6GYYqh2Vvg9wwW6iRiXx59W3hyqp7qqqquaCDiHix+Le2NsYXFla/RFXVwoRjZVVL"
+			"IkcwV29bFS8vlM8E2fzMQLmgg9jhXM2oDN48F3QUZhXKBNlCzPqCfHHaoRhfjFAXW3GjpZ3KDbPF"
+			"krq/RZ4KJWM81Xhbdlh/DIoxFI5VqbDBdmsftPK9MD5fFbMrqbX2rsae6jZRZ3P6A6iPWbdTutNR"
+			"uVOFPwwPSO0jVjitFdFqf1e9eXlJo7NTeX6rr4QYT6Q/tlowZdenwVGtFb8jmNNvKMazjtLfFXtR"
+			"49orbDHGU9lFaBCY0QendEJzwywRmZDIckFH6bjU+GDMn2EiK25Cf02UtmuYILRMVKayTMNEVvzg"
+			"6bNS5YVS4330LzH6JJQK8gafcN05NroQDS6giuW6T5fuqq31xSPyVLUL5Ue1eMAbJrKyAsUwyuJp"
+			"vBW1eEGXAjbO+LrcVPOk6D97JaWPmUGu0e9v/Ss8N8zqP5nV56JxIqu6AIwDrvyiKh6Zqsuy9lHV"
+			"v1XledRlND4m8oXgK857rWtPd1QLmy5duo0+OJWXqwlVy3goOqNE3fnbQCFNynjI9AdV8kGZlOIQ"
+			"9e6oQvJBg8avss8AOxxpsYpfavTpc1VlxWZxESUXpMJA9fVrwaVajzdZXHhIVohbU3MA/kPyDFXP"
+			"LFnOL3iUZEym7EHZ4RtyEVVWZ/wpVeTTQlkd4ZCskFRYxAhpUrKNp5zTTg3rarq1rPZWuLFRnogd"
+			"TlVPPiBnZN3Y/73RGZIzzbYulHZ8q1znpPoHeGVqQib5oMz6AtWHt1Td807pdkZ3LhqdlILBlBrj"
+			"i1MaG1QDS3XAEdmhX1G8Krg1FZtqfO6MzvigwM8kJ7LyxBRxfX0cJSeytXbfYH8XQs7I5ChrYm17"
+			"Iktsl8pzsMhTftJpE3FruIqvgvpzbfhTmSCN97b4zKs0WeShrDLvWLWWzvyxmol6az8eSYSjSv5L"
+			"cnq0eHn0caxxmi6sdjT+GGsfy0QsSRuHtDcuTfqtRDii0mRxmSCbFrxxbbvl91BNtfVya7gmU15x"
+			"74y3kuAFycHSuLe6fYpzcxU3LM02JGdDI+nC19tLvnoltU91fCJJ+dRfJh6KzuTDnn5Ed6p056L5"
+			"3EqD+WOfG2alQEV7qxzaWvzEpWpELB+s2FRT567qjJNf8CjyoUMy+YZc3NBGkmM1dt9ofxeCc3M0"
+			"UzY1a7sTWUJMV2Rog0kVTeAf4It3gnLY2bj7kiuSMrhKGsjvVzY0kqaW5j3T0beb9nGORt9g2jWZ"
+			"DY2kC0tcQz6HkozJVe+m0T9ySYTGFbaQqsoMCvxMVBg3mBWcqPBkQ8sXrjWcdivqGvKVnkonvEyz"
+			"/YD8Azzl++XIoa0S1Z/4stZW4l4hzYvKdGqYtE4z1bsT0rX6t/IVlf9+SoSjdb+d/IJHiQaiStXt"
+			"ToH27SKHtkqFJdzQRrZwWcoTU5Vv3+dii0emuFbf6s+5uYobk3zE2hdDPBSd0S8uHLd4KDpT/qls"
+			"eO4MzzhRn4uVto7I3BqOiHNz8lTpm89I2eO+BXWXGxSK90NyeESiNreRNWhrMG4WbU2TbWRqqQ2F"
+			"yLDdx6BpqdT+WmNblS/nPflNFAKYRxtZeWtd/WbyYklHUCw71CJf3NVSCy6VPe6oeP+qNinRQ8at"
+			"VKXy5Zso3275O1e3+pW19JVOTbFYrTYyw62UNRuVmgu13Sw/AoZnp7C/Rm1kxWPFxwza9aoa+Awf"
+			"UBSi0q69WNmVVnp/T2UzuW5P2eAwXx0SlT3rIF3zYv7gVDQqBQvHWX+sCkfA6NzpGZ7xTJAtO8Ll"
+			"+1V2PVdde9WNs823keniYYeDPKaDWzTZkNOd9GXaPjukaeSwszc72gEdmsyTDTnd8uiCu/gmeEYg"
+			"EUe+aQkvM4LfWoIheWKqtVnBQY4llfr14qa18PSjO2VDzkLrkBwekYg7x+KAYAnKhpzuqOIR1RZm"
+			"Be9ycojtjc7worrQuzEvI0jEBlvp1N6NXJFRDyMwjEBExAYzqf8HwqZ/BNOh4r4AAAAASUVORK5C"
+			"YII="
+		)
+	)
+	(label "BUTTON_CON"
+		(at 198.12 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09df531c-b37c-4fb0-97d6-0e245bbf8c7d")
+	)
 	(label "LED"
 		(at 113.03 114.3 180)
 		(effects
@@ -23457,7 +23900,7 @@
 		(uuid "0a814819-de4f-4855-a454-2837cf38693c")
 	)
 	(label "L_OUT"
-		(at 39.37 250.19 180)
+		(at 30.48 250.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23475,6 +23918,16 @@
 			(justify left bottom)
 		)
 		(uuid "0e890264-ba5f-4135-95b4-8e68ee612fb1")
+	)
+	(label "FB_+3V3"
+		(at 123.19 265.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10274ffb-a52f-4f67-bd3f-24cd7a1a67d1")
 	)
 	(label "OUT_L_CON"
 		(at 351.79 52.07 0)
@@ -23565,6 +24018,16 @@
 			(justify right bottom)
 		)
 		(uuid "3e7be28d-0f1a-46ad-9301-72be683d1f53")
+	)
+	(label "LED_CON"
+		(at 198.12 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4784e6bb-9bbd-4a46-9d69-a04c544e5f10")
 	)
 	(label "DAC_DMP"
 		(at 113.03 106.68 180)
@@ -23677,7 +24140,7 @@
 		(uuid "91f025c4-458c-4586-a715-55cfdadaab25")
 	)
 	(label "R_IN"
-		(at 39.37 252.73 180)
+		(at 30.48 252.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23717,7 +24180,7 @@
 		(uuid "9d56f659-f91a-4a2f-9bc9-69a102b7a049")
 	)
 	(label "L_IN"
-		(at 39.37 255.27 180)
+		(at 30.48 255.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23727,7 +24190,7 @@
 		(uuid "a70551b0-b54a-475d-b562-1ac5574c72ab")
 	)
 	(label "R_OUT"
-		(at 39.37 247.65 180)
+		(at 30.48 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23757,7 +24220,7 @@
 		(uuid "c8746491-afac-419e-aa86-2bcfd7283487")
 	)
 	(label "KL30"
-		(at 39.37 242.57 180)
+		(at 30.48 242.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23843,7 +24306,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 53.34 236.22) (xy 171.45 236.22) (xy 171.45 278.13) (xy 53.34 278.13)
+				(xy 44.45 236.22) (xy 162.56 236.22) (xy 162.56 283.21) (xy 44.45 283.21)
 			)
 			(stroke
 				(width 0)
@@ -23877,7 +24340,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 68.58 236.22 0)
+		(at 59.69 236.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23887,7 +24350,7 @@
 		)
 		(uuid "ec3d8e46-297d-4ece-80fd-02fbb9f8f4fa")
 		(property "Net Class" ""
-			(at -307.34 -30.48 0)
+			(at -316.23 -30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23897,7 +24360,7 @@
 			)
 		)
 		(property "Component Class" "DCDC_3V3"
-			(at 69.2785 233.68 0)
+			(at 60.3885 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24374,7 +24837,7 @@
 	)
 	(symbol
 		(lib_id "NRD_Fuse:SF-1206S050-2")
-		(at 48.26 242.57 180)
+		(at 39.37 242.57 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24384,7 +24847,7 @@
 		(dnp no)
 		(uuid "07b4e6f1-852c-4d92-9c28-45ae852e8118")
 		(property "Reference" "F1"
-			(at 46.482 240.538 0)
+			(at 37.592 240.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24394,7 +24857,7 @@
 			)
 		)
 		(property "Value" "SF-1206S050-2"
-			(at 40.005 240.284 90)
+			(at 31.115 240.284 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24405,7 +24868,7 @@
 			)
 		)
 		(property "Footprint" "NRD_Fuse:SF-1206S"
-			(at 39.878 240.284 90)
+			(at 30.988 240.284 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24416,7 +24879,7 @@
 			)
 		)
 		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/SF-1206S.pdf"
-			(at 42.164 245.11 90)
+			(at 33.274 245.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24427,7 +24890,7 @@
 			)
 		)
 		(property "Description" "SMD Fuse 0.5A 63VDC"
-			(at 42.164 245.11 90)
+			(at 33.274 245.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24438,7 +24901,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-20"
-			(at 48.26 242.57 0)
+			(at 39.37 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24450,7 +24913,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "105"
-			(at 48.26 242.57 0)
+			(at 39.37 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24462,7 +24925,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SF-1206S050-2"
-			(at 48.26 242.57 0)
+			(at 39.37 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24474,7 +24937,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 48.26 242.57 0)
+			(at 39.37 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24486,7 +24949,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 48.26 242.57 0)
+			(at 39.37 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24498,7 +24961,7 @@
 			)
 		)
 		(property "Voltage [V]" "63"
-			(at 48.26 242.57 0)
+			(at 39.37 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24510,7 +24973,7 @@
 			)
 		)
 		(property "Rated Current [A]" "0.5"
-			(at 48.26 242.57 0)
+			(at 39.37 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24521,7 +24984,7 @@
 			)
 		)
 		(property "Rated Current" "0.5A"
-			(at 47.498 244.602 0)
+			(at 38.608 244.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24531,7 +24994,7 @@
 			)
 		)
 		(property "Voltage" "63VDC"
-			(at 48.26 242.57 0)
+			(at 39.37 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24558,17 +25021,17 @@
 	)
 	(symbol
 		(lib_id "NRD_PinHeader:61300511121")
-		(at 130.81 93.98 270)
+		(at 133.35 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0904be71-bdeb-4d95-8f16-cf6d332a04ed")
 		(property "Reference" "J1"
-			(at 130.556 86.36 90)
+			(at 133.096 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24578,7 +25041,7 @@
 			)
 		)
 		(property "Value" "61300511121"
-			(at 118.11 93.98 0)
+			(at 120.65 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24589,7 +25052,7 @@
 			)
 		)
 		(property "Footprint" "NRD_PinHeader:61300511121"
-			(at 137.16 93.98 0)
+			(at 139.7 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24600,7 +25063,7 @@
 			)
 		)
 		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/61300511121.pdf"
-			(at 143.51 134.62 0)
+			(at 146.05 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24611,7 +25074,7 @@
 			)
 		)
 		(property "Description" "Pin Header 1x5 2.54mm RM Straight THT"
-			(at 130.81 93.98 0)
+			(at 133.35 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24622,7 +25085,7 @@
 			)
 		)
 		(property "Manufacturer" "Wuerth Elektronik"
-			(at 140.97 134.62 0)
+			(at 143.51 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24633,7 +25096,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "61300511121"
-			(at 130.81 118.11 90)
+			(at 133.35 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24644,7 +25107,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "105"
-			(at 130.81 115.57 90)
+			(at 133.35 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24655,7 +25118,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-40"
-			(at 130.81 113.03 90)
+			(at 133.35 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24666,7 +25129,7 @@
 			)
 		)
 		(property "Rated Current" "3A"
-			(at 130.81 110.49 90)
+			(at 133.35 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24677,7 +25140,7 @@
 			)
 		)
 		(property "Rated Current [A]" "3"
-			(at 130.81 107.95 90)
+			(at 133.35 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24688,7 +25151,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 130.81 105.41 90)
+			(at 133.35 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24699,7 +25162,7 @@
 			)
 		)
 		(property "Symbol Name" "61300511121"
-			(at 130.81 102.87 90)
+			(at 133.35 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24812,7 +25275,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 125.73 85.09 0)
+		(at 128.27 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24822,7 +25285,7 @@
 		(dnp no)
 		(uuid "0cf64ced-8097-4c96-a612-0a6b826e43db")
 		(property "Reference" "#PWR013"
-			(at 125.73 88.9 0)
+			(at 128.27 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24833,7 +25296,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 125.73 81.534 0)
+			(at 128.27 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24843,7 +25306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 85.09 0)
+			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24854,7 +25317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 85.09 0)
+			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24865,7 +25328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 125.73 85.09 0)
+			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25309,7 +25772,7 @@
 	)
 	(symbol
 		(lib_id "NRD_R_0603:RC0603FR-0714K3L")
-		(at 138.43 271.78 0)
+		(at 133.35 271.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25320,7 +25783,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e5e3631-4abb-4980-aab0-258f5387eeaf")
 		(property "Reference" "R5"
-			(at 140.97 269.2399 0)
+			(at 135.89 269.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25331,7 +25794,7 @@
 			)
 		)
 		(property "Value" "14K3"
-			(at 140.97 271.7799 0)
+			(at 135.89 271.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25342,7 +25805,7 @@
 			)
 		)
 		(property "Footprint" "NRD_RES:R_0603"
-			(at 140.462 284.48 0)
+			(at 135.382 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25353,7 +25816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 271.78 0)
+			(at 133.35 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25364,7 +25827,7 @@
 			)
 		)
 		(property "Description" "RES 14K3 1% 0.1W 0603"
-			(at 140.462 284.48 0)
+			(at 135.382 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25375,7 +25838,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-0714K3L"
-			(at 140.462 284.48 0)
+			(at 135.382 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25386,7 +25849,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "155"
-			(at 137.16 283.972 0)
+			(at 132.08 283.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25397,7 +25860,7 @@
 			)
 		)
 		(property "Voltage" "150V"
-			(at 130.556 283.718 0)
+			(at 125.476 283.718 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25408,7 +25871,7 @@
 			)
 		)
 		(property "Voltage [V]" "150"
-			(at 139.192 283.972 0)
+			(at 134.112 283.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25419,7 +25882,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 137.668 283.972 0)
+			(at 132.588 283.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25430,7 +25893,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 140.97 271.7799 0)
+			(at 135.89 271.7799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25442,7 +25905,7 @@
 			)
 		)
 		(property "Power [W]" "0.1"
-			(at 139.192 283.972 0)
+			(at 134.112 283.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25453,7 +25916,7 @@
 			)
 		)
 		(property "Power" "0.1W"
-			(at 140.97 274.3199 0)
+			(at 135.89 274.3199 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25465,7 +25928,7 @@
 			)
 		)
 		(property "Rated Current [A]" ""
-			(at 139.192 283.972 0)
+			(at 134.112 283.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25476,7 +25939,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 139.192 283.972 0)
+			(at 134.112 283.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25487,7 +25950,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 140.97 274.3199 0)
+			(at 135.89 274.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25498,7 +25961,7 @@
 			)
 		)
 		(property "Tolerance [±%]" "1"
-			(at 139.192 283.972 0)
+			(at 134.112 283.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25509,7 +25972,7 @@
 			)
 		)
 		(property "Value [Ohm]" "14300"
-			(at 139.192 283.972 0)
+			(at 134.112 283.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25520,7 +25983,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 137.414 283.464 0)
+			(at 132.334 283.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25917,7 +26380,7 @@
 	)
 	(symbol
 		(lib_id "NRD_IC_DCDC:TLVM23615RDNR")
-		(at 116.84 252.73 0)
+		(at 107.95 252.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25927,7 +26390,7 @@
 		(dnp no)
 		(uuid "1549bba4-6d95-43ed-97b0-efc99db36fa6")
 		(property "Reference" "U4"
-			(at 105.41 238.506 0)
+			(at 96.52 238.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25937,7 +26400,7 @@
 			)
 		)
 		(property "Value" "TLVM23615RDNR"
-			(at 104.14 270.51 0)
+			(at 95.25 270.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25948,7 +26411,7 @@
 			)
 		)
 		(property "Footprint" "NRD_IC_DCDC:TxxM336x5"
-			(at 115.062 276.098 0)
+			(at 106.172 276.098 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25960,7 +26423,7 @@
 			)
 		)
 		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/TLVM236xx.pdf"
-			(at 124.206 275.59 0)
+			(at 115.316 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25971,7 +26434,7 @@
 			)
 		)
 		(property "Description" "3V to 36V Input, 1V to 6V Output, 1.5A, Synchronous Buck Converter Power Module"
-			(at 124.206 275.59 0)
+			(at 115.316 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25982,7 +26445,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 116.84 252.73 0)
+			(at 107.95 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25993,7 +26456,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TLVM23615RDNR"
-			(at 116.84 252.73 0)
+			(at 107.95 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26004,7 +26467,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 116.84 252.73 0)
+			(at 107.95 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26015,7 +26478,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-40"
-			(at 116.84 252.73 0)
+			(at 107.95 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26694,7 +27157,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 38.1 54.61 0)
+		(at 38.1 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26704,7 +27167,7 @@
 		(dnp no)
 		(uuid "1cfb1c21-e81f-43d6-88d0-f0a31fbfe1d6")
 		(property "Reference" "#PWR011"
-			(at 38.1 60.96 0)
+			(at 38.1 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26715,7 +27178,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 57.15 0)
+			(at 38.1 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26725,7 +27188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 54.61 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26736,7 +27199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 54.61 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26747,7 +27210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 54.61 0)
+			(at 38.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26832,6 +27295,66 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Minimum Operating Temperature [°C]" "-40"
+			(at 176.53 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Maximum Operating Temperature [°C]" "85"
+			(at 176.53 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part Number" "74479777310"
+			(at 176.53 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Wurrth Elektronik"
+			(at 176.53 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "RoHS" "RoHS"
+			(at 176.53 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -28554,7 +29077,7 @@
 	)
 	(symbol
 		(lib_id "NRD_C_0603:0603YC103KAT2A")
-		(at 38.1 49.53 0)
+		(at 38.1 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28565,7 +29088,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ea96d7e-7383-49f5-a5b2-c6284dad23c5")
 		(property "Reference" "C5"
-			(at 40.64 45.7262 0)
+			(at 40.64 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28576,7 +29099,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 40.64 48.2662 0)
+			(at 40.64 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28587,7 +29110,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CAP:C_0603"
-			(at 38.354 64.008 0)
+			(at 38.354 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28598,7 +29121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 49.53 0)
+			(at 38.1 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28609,7 +29132,7 @@
 			)
 		)
 		(property "Description" "CAP 10nF ±10% 16V X7R 0603"
-			(at 38.354 64.008 0)
+			(at 38.354 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28620,7 +29143,7 @@
 			)
 		)
 		(property "Manufacturer" "KYOCERA AVX"
-			(at 37.338 62.738 0)
+			(at 37.338 61.468 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28631,7 +29154,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0603YC103KAT2A"
-			(at 38.354 64.008 0)
+			(at 38.354 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28642,7 +29165,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 36.83 63.754 0)
+			(at 36.83 62.484 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28653,7 +29176,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 40.64 50.8062 0)
+			(at 40.64 49.5362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28665,7 +29188,7 @@
 			)
 		)
 		(property "Voltage [V]" "16"
-			(at 33.02 66.294 0)
+			(at 33.02 65.024 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28676,7 +29199,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 35.56 64.77 0)
+			(at 35.56 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28687,7 +29210,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 40.64 53.3462 0)
+			(at 40.64 52.0762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28699,7 +29222,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 37.846 63.246 0)
+			(at 37.846 61.976 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28710,7 +29233,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 40.64 50.8062 0)
+			(at 40.64 49.5362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28721,7 +29244,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 33.02 66.294 0)
+			(at 33.02 65.024 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28732,7 +29255,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 40.64 53.3462 0)
+			(at 40.64 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28743,7 +29266,7 @@
 			)
 		)
 		(property "Value [F]" "1e-08"
-			(at 38.354 64.008 0)
+			(at 38.354 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28780,7 +29303,7 @@
 		(dnp no)
 		(uuid "3157b67e-495b-447e-817d-860eadf1fce3")
 		(property "Reference" "U1"
-			(at 163.576 36.068 0)
+			(at 163.83 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28832,6 +29355,66 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Minimum Operating Temperature [°C]" "-40"
+			(at 173.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Maximum Operating Temperature [°C]" "130"
+			(at 173.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part Number" "PCM5100A"
+			(at 173.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 173.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 173.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "13"
@@ -29138,7 +29721,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 57.15 233.68 0)
+		(at 48.26 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29148,7 +29731,7 @@
 		(dnp no)
 		(uuid "37a2392a-7459-4fd7-907a-883bf80e40af")
 		(property "Reference" "#PWR086"
-			(at 57.15 237.49 0)
+			(at 48.26 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29159,7 +29742,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 56.896 229.108 0)
+			(at 48.006 229.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29169,7 +29752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 233.68 0)
+			(at 48.26 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29180,7 +29763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 233.68 0)
+			(at 48.26 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29191,7 +29774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 233.68 0)
+			(at 48.26 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29757,7 +30340,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 125.73 100.33 0)
+		(at 128.27 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29767,7 +30350,7 @@
 		(dnp no)
 		(uuid "41482e93-85d2-4ceb-8e74-89316bd3bc3c")
 		(property "Reference" "#PWR022"
-			(at 125.73 106.68 0)
+			(at 128.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29778,7 +30361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 102.87 0)
+			(at 128.27 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29788,7 +30371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 100.33 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29799,7 +30382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 100.33 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29810,7 +30393,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 100.33 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30967,7 +31550,7 @@
 	)
 	(symbol
 		(lib_id "NRD_C_1206:CL31B475KBHNNNE")
-		(at 57.15 265.43 0)
+		(at 48.26 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30978,7 +31561,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f0799de-83fb-4a63-be26-e1214f700a9b")
 		(property "Reference" "C17"
-			(at 59.69 261.6262 0)
+			(at 50.8 261.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30989,7 +31572,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 59.69 264.1662 0)
+			(at 50.8 264.1662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31000,7 +31583,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CAP:C_1206"
-			(at 57.404 279.908 0)
+			(at 48.514 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31011,7 +31594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 265.43 0)
+			(at 48.26 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31022,7 +31605,7 @@
 			)
 		)
 		(property "Description" "CAP 4.7uF ±10% 50V X7R 1206"
-			(at 57.404 279.908 0)
+			(at 48.514 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31033,7 +31616,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 56.388 278.638 0)
+			(at 47.498 278.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31044,7 +31627,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL31B475KBHNNNE"
-			(at 57.404 279.908 0)
+			(at 48.514 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31055,7 +31638,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 55.88 279.654 0)
+			(at 46.99 279.654 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31066,7 +31649,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 59.69 266.7062 0)
+			(at 50.8 266.7062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31077,7 +31660,7 @@
 			)
 		)
 		(property "Voltage [V]" "50"
-			(at 52.07 282.194 0)
+			(at 43.18 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31088,7 +31671,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 54.61 280.67 0)
+			(at 45.72 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31099,7 +31682,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 59.69 266.7062 0)
+			(at 50.8 266.7062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31111,7 +31694,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 56.896 279.146 0)
+			(at 48.006 279.146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31122,7 +31705,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 59.436 267.97 0)
+			(at 50.546 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31134,7 +31717,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 52.07 282.194 0)
+			(at 43.18 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31145,7 +31728,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 59.69 269.2462 0)
+			(at 50.8 269.2462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31156,7 +31739,7 @@
 			)
 		)
 		(property "Value [F]" "4.7e-06"
-			(at 57.404 279.908 0)
+			(at 48.514 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31337,7 +31920,7 @@
 	)
 	(symbol
 		(lib_id "NRD_C_1210:CL32B105KAFNNNE")
-		(at 152.4 265.43 0)
+		(at 147.32 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31348,7 +31931,7 @@
 		(fields_autoplaced yes)
 		(uuid "50e474fc-25c0-4afd-a2ca-856a13b58bfe")
 		(property "Reference" "C24"
-			(at 154.94 259.0862 0)
+			(at 149.86 259.0862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31359,7 +31942,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 154.94 261.6262 0)
+			(at 149.86 261.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31370,7 +31953,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CAP:C_1210"
-			(at 152.654 279.908 0)
+			(at 147.574 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31381,7 +31964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 265.43 0)
+			(at 147.32 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31392,7 +31975,7 @@
 			)
 		)
 		(property "Description" "CAP 22uF ±10% 25V X7R 1210"
-			(at 152.654 279.908 0)
+			(at 147.574 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31403,7 +31986,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 151.638 278.638 0)
+			(at 146.558 278.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31414,7 +31997,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL32B105KAFNNNE"
-			(at 152.654 279.908 0)
+			(at 147.574 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31425,7 +32008,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 151.13 279.654 0)
+			(at 146.05 279.654 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31436,7 +32019,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 154.94 264.1662 0)
+			(at 149.86 264.1662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31447,7 +32030,7 @@
 			)
 		)
 		(property "Voltage [V]" "25"
-			(at 147.32 282.194 0)
+			(at 142.24 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31458,7 +32041,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 149.86 280.67 0)
+			(at 144.78 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31469,7 +32052,7 @@
 			)
 		)
 		(property "Package" "1210"
-			(at 154.94 266.7062 0)
+			(at 149.86 266.7062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31480,7 +32063,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 152.146 279.146 0)
+			(at 147.066 279.146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31491,7 +32074,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 154.94 269.2462 0)
+			(at 149.86 269.2462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31502,7 +32085,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 147.32 282.194 0)
+			(at 142.24 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31513,7 +32096,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 154.94 271.7862 0)
+			(at 149.86 271.7862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31524,7 +32107,7 @@
 			)
 		)
 		(property "Value [F]" "2.2e-05"
-			(at 152.654 279.908 0)
+			(at 147.574 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32345,6 +32928,66 @@
 				)
 			)
 		)
+		(property "Minimum Operating Temperature [°C]" "-40"
+			(at 304.8 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Maximum Operating Temperature [°C]" "100"
+			(at 304.8 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part Number" "TC33X-2-103E"
+			(at 304.8 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 304.8 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "RoHS" "Yes"
+			(at 304.8 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
 		(pin "1"
 			(uuid "ed0da51c-1847-4733-a5a3-afaf88dbd6fe")
 		)
@@ -32820,7 +33463,7 @@
 	)
 	(symbol
 		(lib_id "NRD_R_0603:RC0603FR-0734KL")
-		(at 138.43 259.08 0)
+		(at 133.35 259.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32831,7 +33474,7 @@
 		(fields_autoplaced yes)
 		(uuid "6093ecbb-d92c-4f5a-b28e-d4d124a4f9e3")
 		(property "Reference" "R2"
-			(at 140.97 256.5399 0)
+			(at 135.89 256.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32842,7 +33485,7 @@
 			)
 		)
 		(property "Value" "34K"
-			(at 140.97 259.0799 0)
+			(at 135.89 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32853,7 +33496,7 @@
 			)
 		)
 		(property "Footprint" "NRD_RES:R_0603"
-			(at 140.462 271.78 0)
+			(at 135.382 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32864,7 +33507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 259.08 0)
+			(at 133.35 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32875,7 +33518,7 @@
 			)
 		)
 		(property "Description" "RES 34K 1% 0.1W 0603"
-			(at 140.462 271.78 0)
+			(at 135.382 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32886,7 +33529,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-0734KL"
-			(at 140.462 271.78 0)
+			(at 135.382 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32897,7 +33540,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "155"
-			(at 137.16 271.272 0)
+			(at 132.08 271.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32908,7 +33551,7 @@
 			)
 		)
 		(property "Voltage" "150V"
-			(at 130.556 271.018 0)
+			(at 125.476 271.018 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32919,7 +33562,7 @@
 			)
 		)
 		(property "Voltage [V]" "150"
-			(at 139.192 271.272 0)
+			(at 134.112 271.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32930,7 +33573,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 137.668 271.272 0)
+			(at 132.588 271.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32941,7 +33584,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 140.97 259.0799 0)
+			(at 135.89 259.0799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32953,7 +33596,7 @@
 			)
 		)
 		(property "Power [W]" "0.1"
-			(at 139.192 271.272 0)
+			(at 134.112 271.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32964,7 +33607,7 @@
 			)
 		)
 		(property "Power" "0.1W"
-			(at 140.97 261.6199 0)
+			(at 135.89 261.6199 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32976,7 +33619,7 @@
 			)
 		)
 		(property "Rated Current [A]" ""
-			(at 139.192 271.272 0)
+			(at 134.112 271.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32987,7 +33630,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 139.192 271.272 0)
+			(at 134.112 271.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32998,7 +33641,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 140.97 261.6199 0)
+			(at 135.89 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33009,7 +33652,7 @@
 			)
 		)
 		(property "Tolerance [±%]" "1"
-			(at 139.192 271.272 0)
+			(at 134.112 271.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33020,7 +33663,7 @@
 			)
 		)
 		(property "Value [Ohm]" "34000"
-			(at 139.192 271.272 0)
+			(at 134.112 271.272 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33031,7 +33674,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 137.414 270.764 0)
+			(at 132.334 270.764 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33445,7 +34088,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 88.9 278.13 0)
+		(at 80.01 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33455,7 +34098,7 @@
 		(dnp no)
 		(uuid "624d9df9-02ad-44e8-80bc-d293e4922240")
 		(property "Reference" "#PWR047"
-			(at 88.9 284.48 0)
+			(at 80.01 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33466,7 +34109,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 280.67 0)
+			(at 80.01 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33476,7 +34119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 278.13 0)
+			(at 80.01 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33487,7 +34130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 278.13 0)
+			(at 80.01 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33498,7 +34141,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 278.13 0)
+			(at 80.01 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35982,6 +36625,66 @@
 				)
 			)
 		)
+		(property "Minimum Operating Temperature [°C]" "-40"
+			(at 162.56 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Maximum Operating Temperature [°C]" "85"
+			(at 162.56 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part Number" "74479777310"
+			(at 162.56 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Wurrth Elektronik"
+			(at 162.56 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "RoHS" "RoHS"
+			(at 162.56 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
 		(pin "1"
 			(uuid "41c1c5f5-a2df-4385-bf30-5f6725a4f23d")
 		)
@@ -37040,154 +37743,6 @@
 			(project "BT"
 				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NRD_MISC:5001")
-		(at 219.71 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7d884304-ae49-449a-bca4-6655e607e19d")
-		(property "Reference" "TP5"
-			(at 216.662 55.372 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5001"
-			(at 219.71 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NRD_MISC:500x"
-			(at 225.044 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/500x.pdf"
-			(at 225.044 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test Hook Black THT"
-			(at 219.964 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Operating Temperature [°C]" "-45"
-			(at 219.964 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Maximum Operating Temperature [°C]" "85"
-			(at 220.218 60.452 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 219.964 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 219.964 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "RoHS" "Yes"
-			(at 220.218 60.452 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Net" "OUT_R"
-			(at 220.98 55.372 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "b9347116-af36-4d0e-b907-5930dd226554")
-		)
-		(instances
-			(project "BT"
-				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -39151,7 +39706,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 165.1 278.13 0)
+		(at 160.02 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39161,7 +39716,7 @@
 		(dnp no)
 		(uuid "95813054-ec18-4112-b1ed-0c020cb999ca")
 		(property "Reference" "#PWR052"
-			(at 165.1 284.48 0)
+			(at 160.02 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39172,7 +39727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 280.67 0)
+			(at 160.02 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39182,7 +39737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 278.13 0)
+			(at 160.02 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39193,7 +39748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 278.13 0)
+			(at 160.02 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39204,7 +39759,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 278.13 0)
+			(at 160.02 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40203,7 +40758,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 78.74 278.13 0)
+		(at 69.85 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40213,7 +40768,7 @@
 		(dnp no)
 		(uuid "9d3d169c-29d1-492a-94d0-aa62cfadf19a")
 		(property "Reference" "#PWR046"
-			(at 78.74 284.48 0)
+			(at 69.85 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40224,7 +40779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 280.67 0)
+			(at 69.85 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40234,7 +40789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 278.13 0)
+			(at 69.85 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40245,7 +40800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 278.13 0)
+			(at 69.85 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40256,7 +40811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 278.13 0)
+			(at 69.85 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40365,7 +40920,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 138.43 278.13 0)
+		(at 133.35 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40375,7 +40930,7 @@
 		(dnp no)
 		(uuid "9ed8ff8d-d896-4f36-8a04-696d32b87319")
 		(property "Reference" "#PWR050"
-			(at 138.43 284.48 0)
+			(at 133.35 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40386,7 +40941,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 280.67 0)
+			(at 133.35 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40396,7 +40951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 278.13 0)
+			(at 133.35 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40407,7 +40962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 278.13 0)
+			(at 133.35 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40418,7 +40973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 278.13 0)
+			(at 133.35 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40596,7 +41151,7 @@
 	)
 	(symbol
 		(lib_id "NRD_C_1206:CL31B475KBHNNNE")
-		(at 78.74 265.43 0)
+		(at 69.85 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40607,7 +41162,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0dd220b-1ee1-4e23-9c6e-d06b69273736")
 		(property "Reference" "C23"
-			(at 81.28 261.6262 0)
+			(at 72.39 261.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40618,7 +41173,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 81.28 264.1662 0)
+			(at 72.39 264.1662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40629,7 +41184,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CAP:C_1206"
-			(at 78.994 279.908 0)
+			(at 70.104 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40640,7 +41195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 265.43 0)
+			(at 69.85 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40651,7 +41206,7 @@
 			)
 		)
 		(property "Description" "CAP 4.7uF ±10% 50V X7R 1206"
-			(at 78.994 279.908 0)
+			(at 70.104 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40662,7 +41217,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 77.978 278.638 0)
+			(at 69.088 278.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40673,7 +41228,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL31B475KBHNNNE"
-			(at 78.994 279.908 0)
+			(at 70.104 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40684,7 +41239,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 77.47 279.654 0)
+			(at 68.58 279.654 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40695,7 +41250,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 81.28 266.7062 0)
+			(at 72.39 266.7062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40706,7 +41261,7 @@
 			)
 		)
 		(property "Voltage [V]" "50"
-			(at 73.66 282.194 0)
+			(at 64.77 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40717,7 +41272,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 76.2 280.67 0)
+			(at 67.31 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40728,7 +41283,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 81.28 266.7062 0)
+			(at 72.39 266.7062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40740,7 +41295,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 78.486 279.146 0)
+			(at 69.596 279.146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40751,7 +41306,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 81.28 267.9762 0)
+			(at 72.39 267.9762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40763,7 +41318,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 73.66 282.194 0)
+			(at 64.77 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40774,7 +41329,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 81.28 269.2462 0)
+			(at 72.39 269.2462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40785,7 +41340,7 @@
 			)
 		)
 		(property "Value [F]" "4.7e-06"
-			(at 78.994 279.908 0)
+			(at 70.104 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40805,154 +41360,6 @@
 			(project "BT"
 				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NRD_MISC:5001")
-		(at 219.71 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3744bb1-95d9-4ecc-8883-4fa14c4bd73e")
-		(property "Reference" "TP4"
-			(at 216.662 47.752 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5001"
-			(at 219.71 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NRD_MISC:500x"
-			(at 225.044 53.086 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/500x.pdf"
-			(at 225.044 53.086 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test Hook Black THT"
-			(at 219.964 53.086 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Operating Temperature [°C]" "-45"
-			(at 219.964 53.086 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Maximum Operating Temperature [°C]" "85"
-			(at 220.218 52.832 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 219.964 53.086 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 219.964 53.086 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "RoHS" "Yes"
-			(at 220.218 52.832 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Net" "OUT_L"
-			(at 220.98 47.752 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "335e1ddb-2ac7-456f-ac3e-63253900f29c")
-		)
-		(instances
-			(project "BT"
-				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -41818,7 +42225,7 @@
 	)
 	(symbol
 		(lib_id "NRD_C_1210:CL32B105KAFNNNE")
-		(at 165.1 265.43 0)
+		(at 160.02 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41829,7 +42236,7 @@
 		(fields_autoplaced yes)
 		(uuid "aca0b011-14f0-483c-aed2-2177b75ba7f7")
 		(property "Reference" "C25"
-			(at 167.64 259.0862 0)
+			(at 162.56 259.0862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41840,7 +42247,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 167.64 261.6262 0)
+			(at 162.56 261.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41851,7 +42258,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CAP:C_1210"
-			(at 165.354 279.908 0)
+			(at 160.274 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41862,7 +42269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 265.43 0)
+			(at 160.02 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41873,7 +42280,7 @@
 			)
 		)
 		(property "Description" "CAP 22uF ±10% 25V X7R 1210"
-			(at 165.354 279.908 0)
+			(at 160.274 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41884,7 +42291,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 164.338 278.638 0)
+			(at 159.258 278.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41895,7 +42302,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL32B105KAFNNNE"
-			(at 165.354 279.908 0)
+			(at 160.274 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41906,7 +42313,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 163.83 279.654 0)
+			(at 158.75 279.654 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41917,7 +42324,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 167.64 264.1662 0)
+			(at 162.56 264.1662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41928,7 +42335,7 @@
 			)
 		)
 		(property "Voltage [V]" "25"
-			(at 160.02 282.194 0)
+			(at 154.94 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41939,7 +42346,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 162.56 280.67 0)
+			(at 157.48 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41950,7 +42357,7 @@
 			)
 		)
 		(property "Package" "1210"
-			(at 167.64 266.7062 0)
+			(at 162.56 266.7062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41961,7 +42368,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 164.846 279.146 0)
+			(at 159.766 279.146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41972,7 +42379,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 167.64 269.2462 0)
+			(at 162.56 269.2462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41983,7 +42390,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 160.02 282.194 0)
+			(at 154.94 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41994,7 +42401,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 167.64 271.7862 0)
+			(at 162.56 271.7862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42005,7 +42412,7 @@
 			)
 		)
 		(property "Value [F]" "2.2e-05"
-			(at 165.354 279.908 0)
+			(at 160.274 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42032,7 +42439,7 @@
 	)
 	(symbol
 		(lib_id "NRD_C_0603:CL10B104KB8NNNC")
-		(at 68.58 265.43 0)
+		(at 59.69 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42043,7 +42450,7 @@
 		(fields_autoplaced yes)
 		(uuid "acc2baeb-e7f5-4aaa-94d6-08366e1a129a")
 		(property "Reference" "C18"
-			(at 71.12 261.6262 0)
+			(at 62.23 261.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42054,7 +42461,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 71.12 264.1662 0)
+			(at 62.23 264.1662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42065,7 +42472,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CAP:C_0603"
-			(at 68.834 279.908 0)
+			(at 59.944 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42076,7 +42483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 265.43 0)
+			(at 59.69 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42087,7 +42494,7 @@
 			)
 		)
 		(property "Description" "CAP 100nF ±10% 50V X7R 0603"
-			(at 68.834 279.908 0)
+			(at 59.944 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42098,7 +42505,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 67.818 278.638 0)
+			(at 58.928 278.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42109,7 +42516,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
-			(at 68.834 279.908 0)
+			(at 59.944 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42120,7 +42527,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 67.31 279.654 0)
+			(at 58.42 279.654 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42131,7 +42538,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 71.12 266.7062 0)
+			(at 62.23 266.7062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42142,7 +42549,7 @@
 			)
 		)
 		(property "Voltage [V]" "50"
-			(at 63.5 282.194 0)
+			(at 54.61 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42153,7 +42560,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 66.04 280.67 0)
+			(at 57.15 280.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42164,7 +42571,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 71.12 269.2462 0)
+			(at 62.23 269.2462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42176,7 +42583,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 68.326 279.146 0)
+			(at 59.436 279.146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42187,7 +42594,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 71.12 269.2462 0)
+			(at 62.23 269.2462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42199,7 +42606,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 63.5 282.194 0)
+			(at 54.61 282.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42210,7 +42617,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 71.12 269.2462 0)
+			(at 62.23 269.2462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42221,7 +42628,7 @@
 			)
 		)
 		(property "Value [F]" "1e-07"
-			(at 68.834 279.908 0)
+			(at 59.944 279.908 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42779,7 +43186,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 99.06 278.13 0)
+		(at 90.17 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42789,7 +43196,7 @@
 		(dnp no)
 		(uuid "afe282f1-670a-4e6a-9be4-f0d3f341bfb2")
 		(property "Reference" "#PWR048"
-			(at 99.06 284.48 0)
+			(at 90.17 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42800,7 +43207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 280.67 0)
+			(at 90.17 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42810,7 +43217,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 278.13 0)
+			(at 90.17 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42821,7 +43228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 278.13 0)
+			(at 90.17 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42832,7 +43239,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 278.13 0)
+			(at 90.17 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42933,7 +43340,7 @@
 	)
 	(symbol
 		(lib_id "NRD_CON:S6B-PH-K-S")
-		(at 27.94 247.65 0)
+		(at 19.05 247.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42943,7 +43350,7 @@
 		(dnp no)
 		(uuid "b948f66b-e920-42da-b076-18982c9b5a42")
 		(property "Reference" "J3"
-			(at 25.146 240.03 0)
+			(at 15.24 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42953,7 +43360,7 @@
 			)
 		)
 		(property "Value" "S6B-PH-K-S"
-			(at 30.734 257.81 0)
+			(at 21.59 258.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42963,7 +43370,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CON:S6B-PH-K-S"
-			(at 24.13 247.65 0)
+			(at 15.24 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42973,8 +43380,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/JST_PH_Series"
-			(at 27.94 247.65 0)
+		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/JST_PH_Series.pdf"
+			(at 19.05 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42985,7 +43392,7 @@
 			)
 		)
 		(property "Description" "JST PH Series 01x06 Angled THT"
-			(at 24.13 247.65 0)
+			(at 15.24 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42996,7 +43403,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-25"
-			(at 27.94 247.65 0)
+			(at 19.05 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43007,7 +43414,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "85"
-			(at 27.94 247.65 0)
+			(at 19.05 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43018,7 +43425,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "S6B-PH-K-S"
-			(at 27.94 247.65 0)
+			(at 19.05 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43029,7 +43436,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 27.94 247.65 0)
+			(at 19.05 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43040,7 +43447,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 27.94 247.65 0)
+			(at 19.05 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43293,6 +43700,66 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Minimum Operating Temperature [°C]" "-40"
+			(at 26.67 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Maximum Operating Temperature [°C]" "85"
+			(at 26.67 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part Number" "74479777310"
+			(at 26.67 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Wurrth Elektronik"
+			(at 26.67 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "RoHS" "RoHS"
+			(at 26.67 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "1"
@@ -43817,7 +44284,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 49.53 54.61 0)
+		(at 49.53 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -43827,7 +44294,7 @@
 		(dnp no)
 		(uuid "c3d26ec1-cef3-4c8c-85fa-b1cb4f8c86a7")
 		(property "Reference" "#PWR012"
-			(at 49.53 60.96 0)
+			(at 49.53 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43838,7 +44305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.276 57.404 0)
+			(at 49.276 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43848,7 +44315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 54.61 0)
+			(at 49.53 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43859,7 +44326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 54.61 0)
+			(at 49.53 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43870,7 +44337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 54.61 0)
+			(at 49.53 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45281,6 +45748,66 @@
 				)
 			)
 		)
+		(property "Minimum Operating Temperature [°C]" "-40"
+			(at 40.64 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Maximum Operating Temperature [°C]" "85"
+			(at 40.64 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer Part Number" "74479777310"
+			(at 40.64 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Wurrth Elektronik"
+			(at 40.64 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "RoHS" "RoHS"
+			(at 40.64 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
 		(pin "1"
 			(uuid "7f3d35c4-8d0a-481f-9556-a5d908963102")
 		)
@@ -45298,7 +45825,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 68.58 278.13 0)
+		(at 59.69 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45308,7 +45835,7 @@
 		(dnp no)
 		(uuid "d76ff2a1-7338-4e8b-b72d-8107833436a0")
 		(property "Reference" "#PWR045"
-			(at 68.58 284.48 0)
+			(at 59.69 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45319,7 +45846,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 280.67 0)
+			(at 59.69 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45329,7 +45856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 278.13 0)
+			(at 59.69 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45340,7 +45867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 278.13 0)
+			(at 59.69 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45351,7 +45878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 278.13 0)
+			(at 59.69 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45375,7 +45902,7 @@
 	)
 	(symbol
 		(lib_id "NRD_R_0603:RC0603FR-0710KL")
-		(at 88.9 265.43 0)
+		(at 80.01 265.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45386,7 +45913,7 @@
 		(fields_autoplaced yes)
 		(uuid "d78e16de-2ac9-4ee7-b7ae-2c2de4660932")
 		(property "Reference" "R18"
-			(at 91.44 262.8899 0)
+			(at 82.55 262.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45397,7 +45924,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 91.44 265.4299 0)
+			(at 82.55 265.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45408,7 +45935,7 @@
 			)
 		)
 		(property "Footprint" "NRD_RES:R_0603"
-			(at 90.932 278.13 0)
+			(at 82.042 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45419,7 +45946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 265.43 0)
+			(at 80.01 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45430,7 +45957,7 @@
 			)
 		)
 		(property "Description" "RES 10K 1% 0.1W 0603"
-			(at 90.932 278.13 0)
+			(at 82.042 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45441,7 +45968,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-0710KL"
-			(at 90.932 278.13 0)
+			(at 82.042 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45452,7 +45979,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "155"
-			(at 87.63 277.622 0)
+			(at 78.74 277.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45463,7 +45990,7 @@
 			)
 		)
 		(property "Voltage" "150V"
-			(at 81.026 277.368 0)
+			(at 72.136 277.368 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45474,7 +46001,7 @@
 			)
 		)
 		(property "Voltage [V]" "150"
-			(at 89.662 277.622 0)
+			(at 80.772 277.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45485,7 +46012,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 88.138 277.622 0)
+			(at 79.248 277.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45496,7 +46023,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 91.44 267.9699 0)
+			(at 82.55 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -45507,7 +46034,7 @@
 			)
 		)
 		(property "Power [W]" "0.1"
-			(at 89.662 277.622 0)
+			(at 80.772 277.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45518,7 +46045,7 @@
 			)
 		)
 		(property "Power" "0.1W"
-			(at 91.44 267.9699 0)
+			(at 82.55 267.9699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45530,7 +46057,7 @@
 			)
 		)
 		(property "Rated Current [A]" ""
-			(at 89.662 277.622 0)
+			(at 80.772 277.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45541,7 +46068,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 89.662 277.622 0)
+			(at 80.772 277.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45552,7 +46079,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 91.44 270.5099 0)
+			(at 82.55 270.5099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45564,7 +46091,7 @@
 			)
 		)
 		(property "Tolerance [±%]" "1"
-			(at 89.662 277.622 0)
+			(at 80.772 277.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45575,7 +46102,7 @@
 			)
 		)
 		(property "Value [Ohm]" "10000"
-			(at 89.662 277.622 0)
+			(at 80.772 277.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45586,7 +46113,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 87.884 277.114 0)
+			(at 78.994 277.114 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46271,7 +46798,7 @@
 	)
 	(symbol
 		(lib_id "NRD_CON:S3B-PH-K-S")
-		(at 200.66 116.84 0)
+		(at 212.09 116.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -46282,7 +46809,7 @@
 		(dnp no)
 		(uuid "e039319d-2b7b-47eb-8294-9cfd1fd4dfa3")
 		(property "Reference" "J2"
-			(at 201.676 110.998 0)
+			(at 213.106 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46292,7 +46819,7 @@
 			)
 		)
 		(property "Value" "S3B-PH-K-S"
-			(at 207.264 121.666 0)
+			(at 218.694 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -46302,7 +46829,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CON:S3B-PH-K-S"
-			(at 200.66 116.84 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46313,7 +46840,7 @@
 			)
 		)
 		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/JST_PH_Series.pdf"
-			(at 200.66 116.84 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46324,7 +46851,7 @@
 			)
 		)
 		(property "Description" "JST PH Series 01x03 Angled THT"
-			(at 200.66 116.84 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46335,7 +46862,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-25"
-			(at 200.66 116.84 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46346,7 +46873,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "85"
-			(at 200.66 116.84 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46357,7 +46884,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "S3B-PH-K-S"
-			(at 200.66 116.84 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46368,7 +46895,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 200.66 116.84 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46379,7 +46906,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 200.66 116.84 0)
+			(at 212.09 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47950,7 +48477,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 152.4 278.13 0)
+		(at 147.32 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -47960,7 +48487,7 @@
 		(dnp no)
 		(uuid "edf28531-bc9d-4157-bea1-831f3365ddad")
 		(property "Reference" "#PWR051"
-			(at 152.4 284.48 0)
+			(at 147.32 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47971,7 +48498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 280.67 0)
+			(at 147.32 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47981,7 +48508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 278.13 0)
+			(at 147.32 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47992,7 +48519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 278.13 0)
+			(at 147.32 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48003,7 +48530,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 278.13 0)
+			(at 147.32 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48175,7 +48702,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 165.1 233.68 0)
+		(at 160.02 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48185,7 +48712,7 @@
 		(dnp no)
 		(uuid "ef81a822-a451-4f07-b2c1-511758025401")
 		(property "Reference" "#PWR084"
-			(at 165.1 237.49 0)
+			(at 160.02 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48196,7 +48723,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 164.846 229.108 0)
+			(at 159.766 229.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48206,7 +48733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 233.68 0)
+			(at 160.02 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48217,7 +48744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 233.68 0)
+			(at 160.02 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48228,7 +48755,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 165.1 233.68 0)
+			(at 160.02 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48468,7 +48995,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 41.91 278.13 0)
+		(at 33.02 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48478,7 +49005,7 @@
 		(dnp no)
 		(uuid "f3a29ca6-b630-4945-8568-1ba264096ed6")
 		(property "Reference" "#PWR043"
-			(at 41.91 284.48 0)
+			(at 33.02 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48489,7 +49016,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 280.67 0)
+			(at 33.02 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48499,7 +49026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 278.13 0)
+			(at 33.02 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48510,7 +49037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 278.13 0)
+			(at 33.02 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48521,7 +49048,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 278.13 0)
+			(at 33.02 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48622,7 +49149,7 @@
 	)
 	(symbol
 		(lib_id "Power_Ports:GND")
-		(at 57.15 278.13 0)
+		(at 48.26 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48632,7 +49159,7 @@
 		(dnp no)
 		(uuid "f6e209cd-16ce-4363-8947-5d69a69c6cba")
 		(property "Reference" "#PWR044"
-			(at 57.15 284.48 0)
+			(at 48.26 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48643,7 +49170,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.372 280.924 0)
+			(at 46.482 280.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48654,7 +49181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 278.13 0)
+			(at 48.26 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48665,7 +49192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 278.13 0)
+			(at 48.26 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48676,7 +49203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 278.13 0)
+			(at 48.26 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49225,7 +49752,7 @@
 	)
 	(symbol
 		(lib_id "NRD_C_0603:CL10B104KB8NNNC")
-		(at 49.53 49.53 0)
+		(at 49.53 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49236,7 +49763,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff05dc78-c6f0-45d5-a614-3ab2f5c1ac45")
 		(property "Reference" "C6"
-			(at 52.07 45.7262 0)
+			(at 52.07 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49247,7 +49774,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 52.07 48.2662 0)
+			(at 52.07 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49258,7 +49785,7 @@
 			)
 		)
 		(property "Footprint" "NRD_CAP:C_0603"
-			(at 49.784 64.008 0)
+			(at 49.784 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49269,7 +49796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 49.53 0)
+			(at 49.53 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49280,7 +49807,7 @@
 			)
 		)
 		(property "Description" "CAP 100nF ±10% 50V X7R 0603"
-			(at 49.784 64.008 0)
+			(at 49.784 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49291,7 +49818,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 48.768 62.738 0)
+			(at 48.768 61.468 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49302,7 +49829,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
-			(at 49.784 64.008 0)
+			(at 49.784 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49313,7 +49840,7 @@
 			)
 		)
 		(property "Maximum Operating Temperature [°C]" "125"
-			(at 48.26 63.754 0)
+			(at 48.26 62.484 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49324,7 +49851,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 52.07 50.8062 0)
+			(at 52.07 49.5362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49336,7 +49863,7 @@
 			)
 		)
 		(property "Voltage [V]" "50"
-			(at 44.45 66.294 0)
+			(at 44.45 65.024 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49347,7 +49874,7 @@
 			)
 		)
 		(property "Minimum Operating Temperature [°C]" "-55"
-			(at 46.99 64.77 0)
+			(at 46.99 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49358,7 +49885,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 52.07 53.3462 0)
+			(at 52.07 52.0762 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49370,7 +49897,7 @@
 			)
 		)
 		(property "RoHS" "Yes"
-			(at 49.276 63.246 0)
+			(at 49.276 61.976 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49381,7 +49908,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 52.07 50.8062 0)
+			(at 52.07 49.5362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49392,7 +49919,7 @@
 			)
 		)
 		(property "Tolerance [%]" "10"
-			(at 44.45 66.294 0)
+			(at 44.45 65.024 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49403,7 +49930,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 52.07 53.3462 0)
+			(at 52.07 52.0762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49414,7 +49941,7 @@
 			)
 		)
 		(property "Value [F]" "1e-07"
-			(at 49.784 64.008 0)
+			(at 49.784 62.738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

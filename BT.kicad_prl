@@ -10,7 +10,7 @@
     "opacity": {
       "images": 1.0,
       "pads": 1.0,
-      "shapes": 1.0,
+      "shapes": 0.6499999761581421,
       "tracks": 1.0,
       "vias": 1.0,
       "zones": 1.0
@@ -34,7 +34,6 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -51,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_00000088_82000075",
     "zone_display_mode": 0
   },
   "git": {
@@ -120,7 +119,9 @@
     "sort_ascending": true,
     "sorting_column": 0
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "Jobset.kicad_jobset"
+  ],
   "project": {
     "files": []
   },
