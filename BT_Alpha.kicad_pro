@@ -535,7 +535,7 @@
     ]
   },
   "meta": {
-    "filename": "BT.kicad_pro",
+    "filename": "BT_Alpha.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -852,8 +852,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "BT.kicad_sch",
-        "name": "BT",
+        "filename": "BT_Alpha.kicad_sch",
+        "name": "BT_Alpha",
         "uuid": "2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
       }
     ],
@@ -863,7 +863,7 @@
   "sheets": [
     [
       "2a39086a-f2b2-4072-a3e4-22a9fe5f90b0",
-      "BT"
+      "BT_Alpha"
     ]
   ],
   "text_variables": {},
