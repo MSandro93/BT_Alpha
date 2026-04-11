@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "10.0.0"
     },
-    "CreationDate": "2026-04-11T11:36:06+02:00"
+    "CreationDate": "2026-04-11T14:09:48+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "BT",
-      "GUID": "42542e6b-6963-4616-945f-706362585858",
+      "Name": "BT_Alpha",
+      "GUID": "42545f41-6c70-4686-912e-6b696361645f",
       "Revision": "rev?"
     },
     "Size": {
@@ -43,62 +43,62 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "BT-F_Cu.gtl",
+      "Path": "BT_Alpha-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BT-In1_Cu.g1",
+      "Path": "BT_Alpha-In1_Cu.g1",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BT-In2_Cu.g2",
+      "Path": "BT_Alpha-In2_Cu.g2",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BT-B_Cu.gbl",
+      "Path": "BT_Alpha-B_Cu.gbl",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BT-F_Paste.gtp",
+      "Path": "BT_Alpha-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BT-B_Paste.gbp",
+      "Path": "BT_Alpha-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BT-F_Silkscreen.gto",
+      "Path": "BT_Alpha-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BT-B_Silkscreen.gbo",
+      "Path": "BT_Alpha-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BT-F_Mask.gts",
+      "Path": "BT_Alpha-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "BT-B_Mask.gbs",
+      "Path": "BT_Alpha-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "BT-User_Drawings.gbr",
+      "Path": "BT_Alpha-User_Drawings.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BT-Edge_Cuts.gm1",
+      "Path": "BT_Alpha-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

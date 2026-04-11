@@ -1,6 +1,29 @@
 {
   "jobs": [
     {
+      "description": "",
+      "id": "e23b5c50-f80a-47b5-bdb6-de4ea16c4ca7",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Default",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "min_pen_width": 847,
+        "output_filename": "BT_Alpha_SCH.pdf",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "show_hop_over": false,
+        "use_background_color": true,
+        "variant_name": ""
+      },
+      "type": "sch_export_plot_pdf"
+    },
+    {
       "description": "BoM",
       "id": "fdbf813e-51c3-4877-b23b-d9199c2d6d7c",
       "settings": {
@@ -80,7 +103,7 @@
         "group_symbols": true,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "BT.csv",
+        "output_filename": "BT_Alpha_BoM.csv",
         "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
@@ -142,7 +165,7 @@
         ],
         "mirror": false,
         "negative": false,
-        "output_filename": "BT_ASD.pdf",
+        "output_filename": "BT_Alpha_ASD.pdf",
         "pdf_gen_mode": "one-page-per-layer-one-file",
         "pdf_metadata": true,
         "plot_drawing_sheet": false,
@@ -209,7 +232,7 @@
         ],
         "mirror": false,
         "negative": false,
-        "output_filename": "./BT_Dimensions.pdf",
+        "output_filename": "./BT_Alpha_Dimensions.pdf",
         "pdf_gen_mode": "one-page-per-layer-one-file",
         "pdf_metadata": true,
         "plot_drawing_sheet": false,
@@ -326,7 +349,7 @@
       "description": "",
       "id": "4d788665-8b6b-47f5-893b-dfd5f2e42514",
       "settings": {
-        "command": "cd ${JOBSET_OUTPUT_WORK_PATH} && mkdir .\\tmp && xcopy .\\DRL\\*.* .\\tmp\\ && xcopy .\\Gerber\\*.* .\\tmp\\ && cd .\\tmp && tar -cvf ..\\BT_Production_Data.zip *.* && cd .. && rmdir /s /q .\\tmp && ren BT.csv BT_BoM.csv",
+        "command": "cd ${JOBSET_OUTPUT_WORK_PATH} && mkdir .\\tmp && xcopy .\\DRL\\*.* .\\tmp\\ && xcopy .\\Gerber\\*.* .\\tmp\\ && cd .\\tmp && tar -cvf ..\\BT_Alpha_Production_Data.zip *.* && cd .. && rmdir /s /q .\\tmp",
         "description": "",
         "ignore_exit_code": false,
         "output_filename": "4d788665-8b6b-47f5-893b-dfd5f2e42514.log",
