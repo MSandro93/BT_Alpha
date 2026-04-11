@@ -62,7 +62,7 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|171976982|110007231|7381e4e0-21d0-4b4a-88e4-84d85f1c12cf|a309d9fc-65c0-4ea0-811c-1bd1b09c1620",
+          "courtyards_overlap|172376982|110232231|7381e4e0-21d0-4b4a-88e4-84d85f1c12cf|a309d9fc-65c0-4ea0-811c-1bd1b09c1620",
           "not critical. No other option here"
         ],
         [
@@ -572,7 +572,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/Gerber/",
+      "plot": "BT_ASD.pdf",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -857,7 +857,7 @@
         "uuid": "2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
       }
     ],
-    "used_designators": "TP4-5,#PWR16,#PWR23,#PWR25,#PWR35-39,#PWR59,D2,L1-4,R7,R34,R36-40,J2,J5,C22,C28,C34,Q2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

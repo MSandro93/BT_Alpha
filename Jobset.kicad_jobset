@@ -142,7 +142,7 @@
         ],
         "mirror": false,
         "negative": false,
-        "output_filename": "",
+        "output_filename": "BT_ASD.pdf",
         "pdf_gen_mode": "one-page-per-layer-one-file",
         "pdf_metadata": true,
         "plot_drawing_sheet": false,
@@ -209,15 +209,15 @@
         ],
         "mirror": false,
         "negative": false,
-        "output_filename": "",
-        "pdf_gen_mode": "all-layers-separate-files",
+        "output_filename": "./BT_Dimensions.pdf",
+        "pdf_gen_mode": "one-page-per-layer-one-file",
         "pdf_metadata": true,
         "plot_drawing_sheet": false,
         "plot_footprint_values": true,
         "plot_pad_numbers": false,
         "plot_ref_des": true,
         "scale": 1.0,
-        "single_document": false,
+        "single_document": true,
         "sketch_dnp_footprints_on_fab_layers": true,
         "sketch_pads_on_fab_layers": false,
         "subtract_solder_mask_from_silk": false,
@@ -305,7 +305,7 @@
       "settings": {
         "description": "",
         "drill_origin": "abs",
-        "excellon.combine_pth_npth": true,
+        "excellon.combine_pth_npth": false,
         "excellon.minimal_header": false,
         "excellon.mirror_y": false,
         "excellon.oval_drill_route": false,
@@ -321,6 +321,18 @@
         "zero_format": "decimal"
       },
       "type": "pcb_export_drill"
+    },
+    {
+      "description": "",
+      "id": "4d788665-8b6b-47f5-893b-dfd5f2e42514",
+      "settings": {
+        "command": "cd ${JOBSET_OUTPUT_WORK_PATH} && mkdir .\\tmp && xcopy .\\DRL\\*.* .\\tmp\\ && xcopy .\\Gerber\\*.* .\\tmp\\ && cd .\\tmp && tar -cvf ..\\BT_Production_Data.zip *.* && cd .. && rmdir /s /q .\\tmp && ren BT.csv BT_BoM.csv",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "4d788665-8b6b-47f5-893b-dfd5f2e42514.log",
+        "record_output": false
+      },
+      "type": "special_execute"
     }
   ],
   "meta": {
