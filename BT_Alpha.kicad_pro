@@ -572,7 +572,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "BT_ASD.pdf",
+      "plot": "./BT_Alpha_Dimensions.pdf",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -587,7 +587,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "BT_Alpha_BoM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
