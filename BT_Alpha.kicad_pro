@@ -505,7 +505,25 @@
       "NRD_Relays",
       "NRD_MECH",
       "NRD_MISC",
-      "NRD_MOSFET"
+      "NRD_MOSFET",
+      "NRD_IC_DCDC",
+      "NRD_IC_COM",
+      "NRD_IC_DATA",
+      "NRD_IC_MCU",
+      "NRD_IC_OPAMP",
+      "NRD_CAP",
+      "NRD_CON",
+      "NRD_Diodes",
+      "NRD_Fuse",
+      "NRD_PinHeader",
+      "NRD_RES",
+      "NRD_Switches",
+      "NRD_LDO",
+      "NRD_R_Var",
+      "NRD_IC_Logic",
+      "NRD_IC_Switch",
+      "NRD_IC_DRV",
+      "NRD_IC_Sensor"
     ],
     "pinned_symbol_libs": [
       "NRD_Relays",
@@ -531,7 +549,9 @@
       "NRD_R_0603",
       "NRD_R_0805",
       "NRD_R_1206",
-      "NRD_R_1210"
+      "NRD_R_1210",
+      "NRD_IC_Switch",
+      "NRD_IC_Sensor"
     ]
   },
   "meta": {
@@ -857,7 +877,7 @@
         "uuid": "2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U7",
     "variants": []
   },
   "sheets": [
