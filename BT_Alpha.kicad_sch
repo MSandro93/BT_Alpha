@@ -5381,201 +5381,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NRD_MISC:5001"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 5.334 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "5001"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "NRD_MISC:500x"
-				(at 5.334 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/500x.pdf"
-				(at 5.334 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Test Hook Black THT"
-				(at 0.254 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Minimum Operating Temperature [°C]" "-45"
-				(at 0.254 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Maximum Operating Temperature [°C]" "85"
-				(at 0.508 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Manufacturer Part Number" "5001"
-				(at 0.254 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Manufacturer" "Keystone Electronics"
-				(at 0.254 -2.286 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "RoHS" "Yes"
-				(at 0.508 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Net" "*"
-				(at 1.27 3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "5001_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "5001_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NRD_MOSFET:BSS123"
 			(pin_names
 				(offset 0)
@@ -16050,12 +15855,6 @@
 		(uuid "73292e75-0b3d-4284-a548-167fb85fffc6")
 	)
 	(junction
-		(at 331.47 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75c626a5-3e29-4256-87e8-6d96b8da4b62")
-	)
-	(junction
 		(at 25.4 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16252,12 +16051,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff05a94b-0ade-4a68-9a37-534ca91de557")
-	)
-	(junction
-		(at 331.47 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffc5baa2-43ef-4f99-ad6d-a86ff7fcba21")
 	)
 	(no_connect
 		(at 93.98 88.9)
@@ -17233,16 +17026,6 @@
 		)
 		(uuid "3aa64a2a-973e-463d-934b-060828429e40")
 	)
-	(wire
-		(pts
-			(xy 331.47 49.53) (xy 339.09 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c884368-e0a8-4b45-a0d5-bb90e7847fae")
-	)
 	(polyline
 		(pts
 			(xy 270.256 193.802) (xy 271.526 195.072)
@@ -17445,16 +17228,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 58.42) (xy 331.47 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a68cbc1-9bc4-4945-bc1c-695e37774767")
-	)
-	(wire
-		(pts
 			(xy 224.79 245.11) (xy 224.79 242.57)
 		)
 		(stroke
@@ -17532,16 +17305,6 @@
 			(type default)
 		)
 		(uuid "4fcb6851-01a8-4534-bb8c-cd077360f697")
-	)
-	(wire
-		(pts
-			(xy 67.31 212.09) (xy 67.31 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fdb3b52-a579-4a8c-9c8a-744bff3dfee7")
 	)
 	(wire
 		(pts
@@ -17734,16 +17497,6 @@
 			(type default)
 		)
 		(uuid "6179b892-63bf-4284-8fe8-6dd52139d538")
-	)
-	(wire
-		(pts
-			(xy 331.47 48.26) (xy 331.47 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "622dc20f-75df-4ab5-a00a-9699b0dcf955")
 	)
 	(wire
 		(pts
@@ -18528,7 +18281,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 49.53) (xy 331.47 49.53)
+			(xy 304.8 49.53) (xy 339.09 49.53)
 		)
 		(stroke
 			(width 0)
@@ -22792,7 +22545,7 @@
 	)
 	(symbol
 		(lib_id "NRD_MECH:Mounting Hole 2.7mm Unplated")
-		(at 81.28 213.36 0)
+		(at 77.47 212.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22803,7 +22556,7 @@
 		(fields_autoplaced yes)
 		(uuid "1acb4462-c718-4cbf-81e1-617ee62114a4")
 		(property "Reference" "M3"
-			(at 83.82 213.3599 0)
+			(at 80.01 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22814,7 +22567,7 @@
 			)
 		)
 		(property "Value" "Mounting_Hole_2.7mm_Unplated"
-			(at 81.28 210.185 0)
+			(at 77.47 208.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22825,7 +22578,7 @@
 			)
 		)
 		(property "Footprint" "NRD_MECH:Mounting_Hole_2.7mm_Unplated"
-			(at 81.28 213.36 0)
+			(at 77.47 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22836,7 +22589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 213.36 0)
+			(at 77.47 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22847,7 +22600,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole 2.7mm Unplated"
-			(at 81.28 213.36 0)
+			(at 77.47 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27443,7 +27196,7 @@
 	)
 	(symbol
 		(lib_id "NRD_MECH:Mounting Hole 2.7mm Unplated")
-		(at 81.28 205.74 0)
+		(at 77.47 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27454,7 +27207,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b6b172e-891d-4e16-ad34-f3c8aa94f3f0")
 		(property "Reference" "M1"
-			(at 83.82 205.7399 0)
+			(at 80.01 204.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27465,7 +27218,7 @@
 			)
 		)
 		(property "Value" "Mounting_Hole_2.7mm_Unplated"
-			(at 81.28 202.565 0)
+			(at 77.47 201.295 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27476,7 +27229,7 @@
 			)
 		)
 		(property "Footprint" "NRD_MECH:Mounting_Hole_2.7mm_Unplated"
-			(at 81.28 205.74 0)
+			(at 77.47 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27487,7 +27240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 205.74 0)
+			(at 77.47 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27498,7 +27251,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole 2.7mm Unplated"
-			(at 81.28 205.74 0)
+			(at 77.47 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27767,154 +27520,6 @@
 			(project "BT_Alpha"
 				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NRD_MISC:5001")
-		(at 331.47 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f4cf7fd-2a2a-4f3f-85da-bc2f7de07d75")
-		(property "Reference" "TP2"
-			(at 331.47 42.926 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5001"
-			(at 331.47 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NRD_MISC:500x"
-			(at 336.804 50.546 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/500x.pdf"
-			(at 336.804 50.546 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test Hook Black THT"
-			(at 331.724 50.546 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Operating Temperature [°C]" "-45"
-			(at 331.724 50.546 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Maximum Operating Temperature [°C]" "85"
-			(at 331.978 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 331.724 50.546 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 331.724 50.546 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "RoHS" "Yes"
-			(at 331.978 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Net" "OUT_L_AMP"
-			(at 329.438 45.212 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "0437b31e-1beb-46b8-be50-8496a87b2b1f")
-		)
-		(instances
-			(project "BT_Alpha"
-				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -32992,83 +32597,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Ports:GND")
-		(at 67.31 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8fb8a5a7-ddd5-403b-81dd-d47fcc0802c8")
-		(property "Reference" "#PWR03"
-			(at 67.31 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 214.884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2af0d697-36dd-4581-a012-6361ec01331b")
-		)
-		(instances
-			(project "BT_Alpha"
-				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NRD_R_0603:RC0603FR-0710KL")
 		(at 361.95 179.07 0)
 		(unit 1)
@@ -36395,7 +35923,7 @@
 	)
 	(symbol
 		(lib_id "NRD_MECH:Mounting Hole 2.7mm Unplated")
-		(at 81.28 196.85 0)
+		(at 77.47 195.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36406,7 +35934,7 @@
 		(fields_autoplaced yes)
 		(uuid "b96a39e3-d43f-4101-8f94-565f35501546")
 		(property "Reference" "M2"
-			(at 83.82 196.8499 0)
+			(at 80.01 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36417,7 +35945,7 @@
 			)
 		)
 		(property "Value" "Mounting_Hole_2.7mm_Unplated"
-			(at 81.28 193.675 0)
+			(at 77.47 192.405 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36428,7 +35956,7 @@
 			)
 		)
 		(property "Footprint" "NRD_MECH:Mounting_Hole_2.7mm_Unplated"
-			(at 81.28 196.85 0)
+			(at 77.47 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36439,7 +35967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 196.85 0)
+			(at 77.47 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36450,7 +35978,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole 2.7mm Unplated"
-			(at 81.28 196.85 0)
+			(at 77.47 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39346,155 +38874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "NRD_MISC:5001")
-		(at 331.47 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9ffca9d-3cc7-47ab-9466-7579d2fb1ba2")
-		(property "Reference" "TP3"
-			(at 329.946 53.086 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5001"
-			(at 331.47 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NRD_MISC:500x"
-			(at 336.804 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/500x.pdf"
-			(at 336.804 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test Hook Black THT"
-			(at 331.724 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Operating Temperature [°C]" "-45"
-			(at 331.724 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Maximum Operating Temperature [°C]" "85"
-			(at 331.978 60.452 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 331.724 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 331.724 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "RoHS" "Yes"
-			(at 331.978 60.452 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Net" "OUT_R_AMP"
-			(at 329.692 55.372 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "0f45e17e-c7e4-485e-95c3-0dd9e75ef171")
-		)
-		(instances
-			(project "BT_Alpha"
-				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Ports:GND")
 		(at 209.55 91.44 0)
 		(unit 1)
@@ -40543,154 +39922,6 @@
 			(project "BT_Alpha"
 				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "NRD_MISC:5001")
-		(at 67.31 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee61703e-706a-456c-9c4d-35e3d0539f27")
-		(property "Reference" "TP1"
-			(at 67.31 202.946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5001"
-			(at 67.31 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NRD_MISC:500x"
-			(at 72.644 210.566 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "${NERDTRONIX_COMPONENTS_DIR}/Ds/500x.pdf"
-			(at 72.644 210.566 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Test Hook Black THT"
-			(at 67.564 210.566 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Operating Temperature [°C]" "-45"
-			(at 67.564 210.566 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Maximum Operating Temperature [°C]" "85"
-			(at 67.818 210.312 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer Part Number" "5001"
-			(at 67.564 210.566 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Manufacturer" "Keystone Electronics"
-			(at 67.564 210.566 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "RoHS" "Yes"
-			(at 67.818 210.312 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Net" "GND"
-			(at 68.58 205.232 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "e6046319-e5cc-4f9f-b969-4b515991eb74")
-		)
-		(instances
-			(project "BT_Alpha"
-				(path "/2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
