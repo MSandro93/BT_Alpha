@@ -875,15 +875,24 @@
         "filename": "BT_Alpha.kicad_sch",
         "name": "BT_Alpha",
         "uuid": "2a39086a-f2b2-4072-a3e4-22a9fe5f90b0"
+      },
+      {
+        "filename": "history.kicad_sch",
+        "name": "History",
+        "uuid": "5673ffc9-b4a9-4811-82f7-ecf40ba534f4"
       }
     ],
-    "used_designators": "U7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "2a39086a-f2b2-4072-a3e4-22a9fe5f90b0",
       "BT_Alpha"
+    ],
+    [
+      "5673ffc9-b4a9-4811-82f7-ecf40ba534f4",
+      "History"
     ]
   ],
   "text_variables": {},
