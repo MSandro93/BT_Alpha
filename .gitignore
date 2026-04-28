@@ -1,2 +1,6 @@
 /BT_Alpha-backups
 /.history
+*.o
+*.a
+*.elf
+*.hex
