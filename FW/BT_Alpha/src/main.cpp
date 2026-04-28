@@ -16,6 +16,12 @@
 
  //==> Example which shows how to use the built in ESP32 I2S < 3.0.0
 
+
+
+ // Cedits to: Phil Schatzmann (https://github.com/pschatzmann/ESP32-A2DP/tree/main)
+
+
+
 #include <Arduino.h>
 //#include "I2S.h"
 #include "BluetoothA2DPSink.h"
