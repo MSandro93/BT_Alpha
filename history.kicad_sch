@@ -160,7 +160,7 @@
 				)
 				(uuid "57993d78-e5ad-472b-93a9-dbdbfb74ce75")
 			)
-			(table_cell "Fixed polarity of relay coil; Added history sheet; Replaced reconstruction filter by ac coupling and biasing (C22, C37, R43, R44, R41, R42); replaced non inverting amplifier by unity gain amplifier; replaced U3 by TLV2888DR\nRounded corners of PCB; added one missing dimentioning"
+			(table_cell "Fixed polarity of relay coil; Added history sheet; Replaced reconstruction filter by ac coupling and biasing (C22, C37, R43, R44, R41, R42); replaced non inverting amplifier by unity gain amplifier; replaced U3 by TLV2888DR\nRounded corners of PCB; added one missing dimentioning; Connected IO0 of WROOM module to SCK of DAC to feed clock"
 				(exclude_from_sim no)
 				(at 41.91 34.29 0)
 				(size 204.47 7.62)
