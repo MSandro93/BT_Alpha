@@ -23,11 +23,8 @@
 
 
 #include <Arduino.h>
-//#include "I2S.h"
 #include "BluetoothA2DPSink.h"
 #include "AudioTools.h"
-#include <freertos/task.h>
-#include <stdlib.h>
 
 #define FWD 27
 #define REV 32
@@ -110,7 +107,7 @@ int cnt = 0;
 
 
 void loop()
-{ /*
+{
   switch(state)
   {
     case 0: //idle
@@ -181,7 +178,7 @@ void loop()
       }
     }
   }
-*/
 
- vTaskDelay(10);
+
+ delay(50);
 }

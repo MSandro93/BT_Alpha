@@ -38,7 +38,7 @@
 			)
 		)
 		(column_widths 17.78 204.47 20.32)
-		(row_heights 2.54 2.54 5.08 2.54 2.54 2.54 2.54 2.54 2.54)
+		(row_heights 2.54 2.54 7.62 2.54 2.54 2.54 2.54 2.54 2.54)
 		(uuid "2075161d-a7c7-41ed-b553-ec60278531d9")
 		(cells
 			(table_cell "Revision"
@@ -147,7 +147,7 @@
 			(table_cell "pre B"
 				(exclude_from_sim no)
 				(at 24.13 34.29 0)
-				(size 17.78 5.08)
+				(size 17.78 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -160,10 +160,10 @@
 				)
 				(uuid "57993d78-e5ad-472b-93a9-dbdbfb74ce75")
 			)
-			(table_cell "Added history sheet; Replaced reconstruction filter by ac coupling and biasing (C22, C37, R43, R44, R41, R42); replaced non inverting amplifier by unity gain amplifier; replaced U3 by TLV2888DR\nRounded corners of PCB; added one missing dimentioning"
+			(table_cell "Fixed polarity of relay coil; Added history sheet; Replaced reconstruction filter by ac coupling and biasing (C22, C37, R43, R44, R41, R42); replaced non inverting amplifier by unity gain amplifier; replaced U3 by TLV2888DR\nRounded corners of PCB; added one missing dimentioning"
 				(exclude_from_sim no)
 				(at 41.91 34.29 0)
-				(size 204.47 5.08)
+				(size 204.47 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -180,7 +180,7 @@
 			(table_cell "28.04.2026"
 				(exclude_from_sim no)
 				(at 246.38 34.29 0)
-				(size 20.32 5.08)
+				(size 20.32 7.62)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -192,57 +192,6 @@
 					)
 				)
 				(uuid "94d93753-b4be-4a8e-a58d-1dd9edfe36d7")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 24.13 39.37 0)
-				(size 17.78 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "f43cab3c-0de2-4d4e-b04a-d2fb0cede2b7")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 41.91 39.37 0)
-				(size 204.47 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4cfc8851-88fb-4cf1-8087-576c32afc178")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 246.38 39.37 0)
-				(size 20.32 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "56526f76-1b86-4a46-98f8-dfead8bd500f")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -259,7 +208,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "4ea3b4a9-cc6d-4c71-98f6-add8e6e8e74e")
+				(uuid "f43cab3c-0de2-4d4e-b04a-d2fb0cede2b7")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -276,7 +225,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "14eb8e30-0a8c-4e3b-ac99-21c28102805b")
+				(uuid "4cfc8851-88fb-4cf1-8087-576c32afc178")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -293,7 +242,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "86b28d2e-9bf4-45e4-9566-b462655b69bc")
+				(uuid "56526f76-1b86-4a46-98f8-dfead8bd500f")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -310,7 +259,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "a9fb545a-5aaa-4abe-96eb-8bd623f6bf14")
+				(uuid "4ea3b4a9-cc6d-4c71-98f6-add8e6e8e74e")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -327,7 +276,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "bd9f45ca-1fe0-4f23-9c18-13749b921520")
+				(uuid "14eb8e30-0a8c-4e3b-ac99-21c28102805b")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -344,7 +293,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "3ce0d5b6-f39d-4fee-9d6d-97c418054c5e")
+				(uuid "86b28d2e-9bf4-45e4-9566-b462655b69bc")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -361,7 +310,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "dd905d52-8f40-48e6-b10d-0eeafce0b871")
+				(uuid "a9fb545a-5aaa-4abe-96eb-8bd623f6bf14")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -378,7 +327,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "0b36f2e8-2b9b-4615-b52e-6c5f404bd6e5")
+				(uuid "bd9f45ca-1fe0-4f23-9c18-13749b921520")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -395,7 +344,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "a7926e44-cb26-4eb5-b214-b0a409cf23b0")
+				(uuid "3ce0d5b6-f39d-4fee-9d6d-97c418054c5e")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -412,7 +361,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "281bfe6f-57ec-453b-bab2-3092e6e4fa2d")
+				(uuid "dd905d52-8f40-48e6-b10d-0eeafce0b871")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -429,7 +378,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "9a3d9462-191d-4537-96ae-342348eb9cea")
+				(uuid "0b36f2e8-2b9b-4615-b52e-6c5f404bd6e5")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -446,7 +395,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "3969671f-2b8b-440d-963a-54d33e27b3d7")
+				(uuid "a7926e44-cb26-4eb5-b214-b0a409cf23b0")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -463,7 +412,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "d3305479-f8c1-4f8d-ba52-82612d58d0dd")
+				(uuid "281bfe6f-57ec-453b-bab2-3092e6e4fa2d")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
@@ -480,11 +429,62 @@
 					)
 					(justify left top)
 				)
-				(uuid "7c5b3341-79b7-4b70-8b67-295443c0037d")
+				(uuid "9a3d9462-191d-4537-96ae-342348eb9cea")
 			)
 			(table_cell ""
 				(exclude_from_sim no)
 				(at 246.38 52.07 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3969671f-2b8b-440d-963a-54d33e27b3d7")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 24.13 54.61 0)
+				(size 17.78 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d3305479-f8c1-4f8d-ba52-82612d58d0dd")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 41.91 54.61 0)
+				(size 204.47 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7c5b3341-79b7-4b70-8b67-295443c0037d")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 246.38 54.61 0)
 				(size 20.32 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
