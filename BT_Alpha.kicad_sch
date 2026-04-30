@@ -15643,7 +15643,7 @@
 		)
 		(uuid "dc5add28-65de-44e4-8d13-acd07560fc66")
 	)
-	(text "swiching left short: revert track\nswitching left long: toggle between normal radio and bluetooth\nswitching right short: forward track\nswitching right long: paring mode"
+	(text "swiching left short: revert track\nswitching left long: toggle between normal radio and bluetooth\nswitching right short: forward track"
 		(exclude_from_sim no)
 		(at 218.948 140.97 0)
 		(effects

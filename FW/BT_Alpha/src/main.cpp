@@ -57,13 +57,6 @@ void GPIO_Init()
 }
 
 
-// Then somewhere in your sketch:
-void data_received_callback()
-{
-  Serial.println("Data packet received");
-}
-
-
 void setup()
 {
   disableCore0WDT();
@@ -72,8 +65,6 @@ void setup()
 
   Serial.begin(115200);
   GPIO_Init();
-  
-  digitalWrite(BT_EN, 1);
 
   auto cfg = i2s.defaultConfig();
   cfg.pin_bck = 19;
@@ -93,17 +84,17 @@ void setup()
 
     a2dp_sink.set_auto_reconnect(true, 3);
 
-    a2dp_sink.start("MyMusic");
-
     state = 0;
     timer_cnt = 0;
-
-    digitalWrite(DAC_MUTEn, 1);
 }
 
-int cnt = 0;
 
-
+void setState(int s_)
+{
+  state = s_;
+  Serial.print(state);
+  Serial.print("\r\n");
+}
 
 
 void loop()
@@ -112,73 +103,80 @@ void loop()
   {
     case 0: //idle
     {
-      if(digitalRead(REV) == 1)
+      if((digitalRead(REV) == 1)  && (digitalRead(FWD) == 0))
       {
-        state = 1;
-        break;
+        setState(1);
       }
-      else if(digitalRead(FWD) == 1)
+      else if((digitalRead(FWD) == 1) && (digitalRead(REV) == 0))
       {
-        state = 3;
-        break;
+        setState(2);
       }
-
       break;
     }
 
-    case 1: //wating for enable/disable BT timeout
+    case 1: //is holded left
     {
-      if(digitalRead(REV) == 0) // revert was ment not switching on/off
-      {
-        state = 2;
-        timer_cnt = 0;
-        break;
-      }
-
       timer_cnt++;
-      if(timer_cnt >= 60)
+
+      if(timer_cnt >= 40) // was pressed long
+        {
+          if(switched_to_BT == 0) //currently switched to normal radio
+          {
+            switched_to_BT = 1;
+            digitalWrite(BT_EN, 1);      
+            digitalWrite(LED, 1);    
+            a2dp_sink.start("BT Alpha");
+            digitalWrite(DAC_MUTEn, 1); //unmute
+            setState(3);
+          }
+          else
+          {
+            digitalWrite(DAC_MUTEn, 0);  //mute
+            switched_to_BT = 0;
+            digitalWrite(BT_EN, 0);
+            a2dp_sink.disconnect();
+            digitalWrite(LED, 0);
+            setState(3);
+          }
+          timer_cnt = 0;
+          break;
+        }
+
+      else if((digitalRead(REV)) == 1 && (digitalRead(FWD) == 1)) 
       {
-        timer_cnt = 0;
-        if(switched_to_BT = 0) //currently switched to normal radio
+        if (a2dp_sink.is_connected() == true) // was pressed short
         {
-          switched_to_BT = 1;
-          digitalWrite(BT_EN, 1);
-          a2dp_sink.start("MyMusic");
-          digitalWrite(LED, 1);
-          digitalWrite(DAC_MUTEn, 1); //unmute
-          state = 0;
-        }
-        else
-        {
-          digitalWrite(DAC_MUTEn, 0);  //mute
-          switched_to_BT = 0;
-          digitalWrite(BT_EN, 0);
-          a2dp_sink.stop();
-          digitalWrite(LED, 0);
-          state = 0;
-        }
+          a2dp_sink.previous();
+          setState(0);
+          Serial.print("a");
+        }    
+        break;
       }
-      break;
     }
 
-    case 2:
+
+    case 2:  //next
     {
-      a2dp_sink.previous();
-      state = 0;
+      if((digitalRead(REV)) == 1 && (digitalRead(FWD) == 1))
+      {
+        if (a2dp_sink.is_connected() == true)
+        {
+          a2dp_sink.next();
+          setState(0);
+        }
+      }
       break;
     }
 
     case 3:
     {
-      if(digitalRead(FWD) == 0)
+      if((digitalRead(REV)) == 1 && (digitalRead(FWD) == 1))
       {
-        a2dp_sink.next();
-        state  = 0;
-        break;
+        setState(0);
       }
+      break;
     }
   }
 
-
- delay(50);
+  delay(50);
 }
